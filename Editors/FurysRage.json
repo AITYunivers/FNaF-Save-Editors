@@ -1,0 +1,39 @@
+{
+    "name" : "Fury's Rage",
+    "link" : "https://gamejolt.com/games/furysrage/611180",
+    "version" : "1.0",
+    "filepath" : "[MMF]\\SB",
+    "defaultsavegroup" : "XB",
+    "values" :
+    [
+        {
+          "name" : "Play Intro",
+          "type" : "checkbox",
+          "description" : "Controls whether or not intro plays.",
+          "savename" : "intro",
+          "offval" : "1",
+          "onval" : "0"
+        },
+        {
+          "name" : "Star 1",
+          "type" : "checkbox",
+          "description" : "The first star, obtained by beating the game on Normal Mode.",
+          "savename" : "c1",
+          "group" : "Stars"
+        },
+        {
+          "name" : "Star 2",
+          "type" : "checkbox",
+          "description" : "The second star, obtained by beating the game on Hard Mode.",
+          "savename" : "c2",
+          "group" : "Stars"
+        },
+        {
+          "name" : "Star 3",
+          "type" : "checkbox",
+          "description" : "The third star, obtained by beating the game on Hard Mode without dying and without using Animdude.",
+          "savename" : "c3",
+          "group" : "Stars"
+        }
+    ]
+}

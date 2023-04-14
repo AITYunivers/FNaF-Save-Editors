@@ -1,0 +1,34 @@
+{
+    "name" : "Five Nights at Candy's Remastered",
+    "author" : "@AitYunivers",
+    "link" : "https://gamejolt.com/games/five-nights-at-candy-s-remastered/426659",
+    "version" : "1.0",
+    "encrypted" : true,
+    "encryptionkey" : "AceJenSpaceFren",
+    "filepath" : "[APPDATA]\\Five Nights at Candy's Remastered\\game.save",
+    "defaultsavegroup" : "game",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "night",
+          "valuedefault" : "1"
+        },
+        {
+            "name" : "1st, 2nd, and 3rd Star",
+            "type" : "valueslider",
+            "description" : "The first, second, and third star.",
+            "savename" : "beatgame",
+            "valuedefault" : "0",
+            "maximum" : "3"
+        },
+        {
+            "name" : "4th Star",
+            "type" : "checkbox",
+            "description" : "The fourth star.",
+            "savename" : "gotcam13"
+        }
+    ]
+}

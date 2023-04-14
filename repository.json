@@ -1,0 +1,74 @@
+{
+    "version" : "2.0.0",
+    "editors" : 
+    [
+        {
+            "filename" : "FNAF1",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAF2",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAF3",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAF4",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAFSL",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAFUCN",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FurysRage",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "Jollibees",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "JR's",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "LEGOFNAF1",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "ONAF1",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "ONAF2",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "ONAF3",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAC1",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAC2",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNAC3",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNACR",
+            "version" : "1.0"
+        }
+    ]
+}

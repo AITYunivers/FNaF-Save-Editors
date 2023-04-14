@@ -1,0 +1,40 @@
+{
+    "name" : "Jollibee's",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "filepath" : "[MMF]\\jollibee.ini",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "The current night the player is on.",
+          "savename" : "night",
+          "valuedefault" : "1"
+        },
+        {
+            "name" : "Star 1",
+            "type" : "checkbox",
+            "description" : "The first star.",
+            "savename" : "beat5"
+        },
+        {
+            "name" : "Star 2",
+            "type" : "checkbox",
+            "description" : "The second star.",
+            "savename" : "beat5"
+        },
+        {
+          "name" : "Endings",
+          "type" : "multislider",
+          "description" : "A slider representing the endings you've obtained.",
+          "savenames" : 
+          [
+              "ending1",
+              "ending2",
+              "ending3",
+              "ending4"
+          ]
+        }
+    ]
+}

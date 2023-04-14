@@ -1,0 +1,27 @@
+{
+    "name" : "Five Nights at Candy's",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/five-nights-at-candy-s-official/70253",
+    "filepath" : "[MMF]\\fivecandys",
+    "defaultsavegroup" : "fivecandys",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "level",
+          "valuedefault" : "1"
+        },
+        {
+          "name" : "Stars",
+          "type" : "valueslider",
+          "description" : "The amount of stars the player has.",
+          "savename" : "beatgame",
+          "minimum" : "0",
+          "maximum" : "3",
+          "round" : true
+        }
+    ]
+}

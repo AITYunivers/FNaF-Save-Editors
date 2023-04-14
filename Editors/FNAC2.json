@@ -1,0 +1,39 @@
+{
+    "name" : "Five Nights at Candy's 2",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/five-nights-at-candy-s-2-official/110234",
+    "filepath" : "[MMF]\\fivecandys2",
+    "defaultsavegroup" : "fivecandys2",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "level",
+          "valuedefault" : "1"
+        },
+        {
+          "name" : "1st and 2nd Star",
+          "type" : "valueslider",
+          "description" : "The first and second star.",
+          "savename" : "beat",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "3rd Star",
+          "type" : "checkbox",
+          "description" : "The third star.",
+          "savename" : "beat520"
+        },
+        {
+          "name" : "4th Star",
+          "type" : "checkbox",
+          "description" : "The fourth star.",
+          "savename" : "beat220"
+        }
+    ]
+}

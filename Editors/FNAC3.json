@@ -1,0 +1,164 @@
+{
+    "name" : "Five Nights at Candy's 3",
+    "author" : "@AitYunivers",
+    "link" : "https://gamejolt.com/games/five-nights-at-candy-s-3-official/130420",
+    "version" : "1.0",
+    "filepath" : "[MMF]\\fivecandys3",
+    "defaultsavegroup" : "fivecandys3",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "multivalueslider",
+          "description" : "What night the player is currently on.",
+          "savename" : "lvl",
+          "valuedefault" : "25",
+          "minimum" : "1",
+          "values" : 
+          [
+            "25",
+            "12",
+            "4901",
+            "5833",
+            "58103"
+          ]
+        },
+        {
+            "name" : "1st and 2nd Star",
+            "type" : "multivalueslider",
+            "description" : "The first and second star.",
+            "savename" : "win",
+            "valuedefault" : "0",
+            "values" : 
+            [
+              "0",
+              "1921",
+              "512596"
+            ]
+        },
+        {
+            "name" : "3rd Star",
+            "type" : "checkbox",
+            "description" : "The third star.",
+            "savename" : "s02",
+            "onval" : "8277"
+        },
+        {
+            "name" : "Star Piece 1",
+            "type" : "checkbox",
+            "description" : "The first piece of the fourth star.",
+            "savename" : "gmm",
+            "onval" : "7624786"
+        },
+        {
+            "name" : "Star Piece 2",
+            "type" : "checkbox",
+            "description" : "The second piece of the fourth star.",
+            "savename" : "ghu",
+            "onval" : "162145"
+        },
+        {
+            "name" : "Star Piece 3",
+            "type" : "checkbox",
+            "description" : "The third piece of the fourth star.",
+            "savename" : "gaw",
+            "onval" : "76583491"
+        },
+        {
+            "name" : "Star Piece 4",
+            "type" : "checkbox",
+            "description" : "The fourth piece of the fourth star.",
+            "savename" : "gne",
+            "onval" : "8353524"
+        },
+        {
+            "name" : "Star Piece 5",
+            "type" : "checkbox",
+            "description" : "The fifth piece of the fourth star.",
+            "savename" : "hau",
+            "onval" : "28878352"
+        },
+        {
+            "name" : "Challenge Star 1",
+            "type" : "checkbox",
+            "description" : "The first challenge star.",
+            "savename" : "bc1",
+            "onval" : "16"
+        },
+        {
+            "name" : "Challenge Star 2",
+            "type" : "checkbox",
+            "description" : "The second challenge star.",
+            "savename" : "bc2",
+            "onval" : "204"
+        },
+        {
+            "name" : "Challenge Star 3",
+            "type" : "checkbox",
+            "description" : "The third challenge star.",
+            "savename" : "bc3",
+            "onval" : "238"
+        },
+        {
+            "name" : "Challenge Star 4",
+            "type" : "checkbox",
+            "description" : "The fourth challenge star.",
+            "savename" : "bc4",
+            "onval" : "28104"
+        },
+        {
+            "name" : "Minigame 1 Unlocked",
+            "type" : "checkbox",
+            "description" : "Whether or not the first minigame is unlocked.",
+            "savename" : "m1u",
+            "onval" : "90"
+        },
+        {
+            "name" : "Minigame 2 Unlocked",
+            "type" : "checkbox",
+            "description" : "Whether or not the second minigame is unlocked.",
+            "savename" : "m2u",
+            "onval" : "48"
+        },
+        {
+            "name" : "Minigame 3 Unlocked",
+            "type" : "multivaluesaveslider",
+            "description" : "Whether or not the third minigame is unlocked.",
+            "savenames" : 
+            [
+                "m3u",
+                "m4u",
+                "m5u"
+            ],
+            "valuedefault" : "0",
+            "values" : 
+            [
+              "0",
+              "2325",
+              "245",
+              "873"
+            ]
+        },
+        {
+            "name" : "Minigame 1 Star",
+            "type" : "checkbox",
+            "description" : "Star obtained within the first minigame.",
+            "savename" : "m1c",
+            "onval" : "815"
+        },
+        {
+            "name" : "Minigame 2 Star",
+            "type" : "checkbox",
+            "description" : "Star obtained within the second minigame.",
+            "savename" : "m2c",
+            "onval" : "471"
+        },
+        {
+            "name" : "Minigame 3 Star",
+            "type" : "checkbox",
+            "description" : "Star obtained within the third minigame.",
+            "savename" : "m3c",
+            "onval" : "2522"
+        }
+    ]
+}
