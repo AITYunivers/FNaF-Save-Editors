@@ -73,6 +73,10 @@
         {
             "filename" : "Jolly",
             "version" : "1.0"
+        },
+        {
+            "filename" : "Jolly2",
+            "version" : "1.0"
         }
     ]
 }

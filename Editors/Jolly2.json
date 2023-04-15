@@ -1,0 +1,115 @@
+{
+    "name" : "Jolly 2",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/jolly-2/197334",
+    "filepath" : "[MMF]\\j2.ini",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "current",
+          "valuedefault" : "1"
+        },
+        {
+          "name" : "Star 1",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten Night 5.",
+          "savename" : "beat5",
+          "group" : "Stars"
+        },
+        {
+          "name" : "Star 2",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten Night 6.",
+          "savename" : "beat6",
+          "group" : "Stars"
+        },
+        {
+          "name" : "Star 3",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has unlocked the true ending.",
+          "savename" : "te",
+          "group" : "Stars"
+        },
+        {
+          "name" : "Star 4",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the '5/20' challenge.",
+          "savename" : "beat520",
+          "group" : "Stars"
+        },
+        {
+          "name" : "The P word",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'The P word' mode.",
+          "savename" : "c1",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "The Fangsome Lion",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'The Fangsome Lion' mode.",
+          "savename" : "c2",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Had a farm",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Had a farm' mode.",
+          "savename" : "c3",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Boys get drunk",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Boys get drunk' mode.",
+          "savename" : "c4",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "R34",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'R34' mode.",
+          "savename" : "c5",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "That one group in school",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'That one group in school' mode.",
+          "savename" : "c6",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Master's degree",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Master's degree' mode.",
+          "savename" : "c7",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Tuna",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Tuna' mode.",
+          "savename" : "c8",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "5/20.",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the '5/20.' mode.",
+          "savename" : "c9",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "The Odd Ones Out",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'The Odd Ones Out' mode.",
+          "savename" : "c10",
+          "group" : "Challenges"
+        }
+    ]
+}
