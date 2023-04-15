@@ -1,0 +1,160 @@
+{
+    "name" : "Jolly 3: Chapter 1",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/jolly-3-official/218061",
+    "filepath" : "[MMF]\\j3.ini",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "current",
+          "valuedefault" : "1"
+        },
+        {
+          "name" : "Extras Unlocked",
+          "type" : "checkbox",
+          "description" : "Whether or not Extras is unlocked.",
+          "savename" : "extras"
+        },
+        {
+          "name" : "Have Book",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the book.",
+          "savename" : "book"
+        },
+        {
+          "name" : "Show Cutscene",
+          "type" : "checkbox",
+          "description" : "Whether or not the player should see the Octagon cutscene.",
+          "savename" : "inprogress"
+        },
+        {
+          "name" : "Died from Conveyor",
+          "type" : "checkbox",
+          "description" : "Whether or not the player should go to the conveyor belt.",
+          "savename" : "deathbyconv"
+        },
+        {
+          "name" : "Story 4",
+          "type" : "checkbox",
+          "description" : "Whether or not the player should go to the 4th story minigame.",
+          "savename" : "story4"
+        },
+        {
+          "name" : "Door 1 Open",
+          "type" : "checkbox",
+          "description" : "Whether or not the first door in the octagon is open.",
+          "savename" : "tc1",
+          "valuedefault" : "0",
+          "onval" : "0",
+          "offval" : "1",
+          "group" : "Octagon Doors"
+        },
+        {
+          "name" : "Door 2 Open",
+          "type" : "checkbox",
+          "description" : "Whether or not the second door in the octagon is open. (Doesn't work on Night 1)",
+          "savename" : "conv",
+          "valuedefault" : "0",
+          "onval" : "0",
+          "offval" : "1",
+          "group" : "Octagon Doors"
+        },
+        {
+          "name" : "Door 3 Open",
+          "type" : "checkbox",
+          "description" : "Whether or not the third door in the octagon is open. (Doesn't work on Night 1)",
+          "savename" : "tc2",
+          "valuedefault" : "0",
+          "onval" : "0",
+          "offval" : "1",
+          "group" : "Octagon Doors"
+        },
+        {
+          "name" : "Show Tweetie/Maxie Tip",
+          "type" : "checkbox",
+          "description" : "Whether or not the player should see the tip in the Tweetie and Maxie games.",
+          "savename" : "help"
+        },
+        {
+          "name" : "Ladies' Night",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Ladies' Night' mode.",
+          "savename" : "c1",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Boys get drunk",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Boys get drunk' mode.",
+          "savename" : "c2",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Eyes from the sky",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Eyes from the sky' mode.",
+          "savename" : "c3",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Madagascar",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Madagascar' mode.",
+          "savename" : "c4",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Cat lover",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Cat lover' mode.",
+          "savename" : "c5",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "If you like chicken nuggets",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'If you like chicken nuggets' mode.",
+          "savename" : "c6",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Veterans",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Veterans' mode.",
+          "savename" : "c7",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Blaze",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Blaze' mode.",
+          "savename" : "c8",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Goes boom",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Goes boom' mode.",
+          "savename" : "c9",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Jolly jever",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Jolly jever' mode.",
+          "savename" : "c10",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Yellow bear",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Yellow bear' mode.",
+          "savename" : "c11",
+          "group" : "Challenges"
+        }
+    ]
+}
