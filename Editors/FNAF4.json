@@ -11,7 +11,7 @@
           "name" : "Night",
           "type" : "editbox",
           "description" : "What night the player is currently on.",
-          "savename" : "level",
+          "savename" : "night",
           "valuedefault" : "1"
         },
         {

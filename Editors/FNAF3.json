@@ -39,7 +39,7 @@
           "name" : "Star 4",
           "type" : "checkbox",
           "description" : "The fourth star, obtained for beating Nightmare Aggressive.",
-          "savename" : "beat6",
+          "savename" : "4thstar",
           "group" : "Stars"
         },
         {
