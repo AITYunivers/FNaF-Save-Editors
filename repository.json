@@ -81,6 +81,10 @@
         {
             "filename" : "Jolly3C1",
             "version" : "1.0"
+        },
+        {
+            "filename" : "Jolly3C2",
+            "version" : "1.0"
         }
     ]
 }

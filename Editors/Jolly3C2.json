@@ -1,0 +1,216 @@
+{
+    "name" : "Jolly 3: Chapter 2",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/jolly3chapter2/320365",
+    "filepath" : "[MMF]\\j3c2.ini",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "night",
+          "valuedefault" : "1"
+        },
+        {
+            "name" : "Stage",
+            "type" : "editbox",
+            "description" : "What stage the player is currently on.",
+            "savename" : "stage",
+            "valuedefault" : "0"
+        },
+        {
+          "name" : "Star 1",
+          "type" : "checkbox",
+          "description" : "Whether or not the first star has been obtained.",
+          "savename" : "beat5"
+        },
+        {
+          "name" : "Star 2",
+          "type" : "checkbox",
+          "description" : "Whether or not the second star has been obtained.",
+          "savename" : "20mode"
+        },
+        {
+          "name" : "Star 3",
+          "type" : "checkbox",
+          "description" : "Whether or not the third star has been obtained.",
+          "savename" : "good"
+        },
+        {
+          "name" : "Is Roaming",
+          "type" : "checkbox",
+          "description" : "Whether or not the player should be roaming.",
+          "savename" : "roaming"
+        },
+        {
+          "name" : "Roaming Tutorial",
+          "type" : "checkbox",
+          "description" : "Whether or not to show the roaming tutorial.",
+          "savename" : "roamtut"
+        },
+        {
+          "name" : "Has 1st Clue",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the first clue.",
+          "savename" : "clue1"
+        },
+        {
+          "name" : "Has 2nd Clue",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the second clue.",
+          "savename" : "clue2"
+        },
+        {
+          "name" : "Has 3rd Clue",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the third clue.",
+          "savename" : "clue3"
+        },
+        {
+          "name" : "Has 4th Clue",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the fourth clue.",
+          "savename" : "clue4"
+        },
+        {
+          "name" : "Has 1st Zip",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the first zip.",
+          "savename" : "zip1"
+        },
+        {
+          "name" : "Has 2nd Zip",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the second zip.",
+          "savename" : "zip2"
+        },
+        {
+          "name" : "Has 3rd Zip",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the third zip.",
+          "savename" : "zip3"
+        },
+        {
+          "name" : "Has 4th Zip",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has the fourth zip.",
+          "savename" : "zip4"
+        },
+        {
+          "name" : "George Minigame Complete",
+          "type" : "checkbox",
+          "description" : "Whether or not the player finished George's minigame.",
+          "savename" : "balloons1"
+        },
+        {
+          "name" : "Tweetie Minigame Complete",
+          "type" : "checkbox",
+          "description" : "Whether or not the player finished Tweetie's minigame.",
+          "savename" : "balloons2"
+        },
+        {
+          "name" : "Maxie Minigame Complete",
+          "type" : "checkbox",
+          "description" : "Whether or not the player finished Maxie's minigame.",
+          "savename" : "balloons3"
+        },
+        {
+          "name" : "Eric Minigame Complete",
+          "type" : "checkbox",
+          "description" : "Whether or not the player finished Eric's minigame.",
+          "savename" : "eric"
+        },
+        {
+          "name" : "Tony Minigame Complete",
+          "type" : "checkbox",
+          "description" : "Whether or not the player finished Tony's minigame.",
+          "savename" : "tony"
+        },
+        {
+          "name" : "Birds and the Bees",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Birds and the Bees' office mode.",
+          "savename" : "challenge1",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Something Borrowed",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Something Borrowed' office mode.",
+          "savename" : "challenge2",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "All in your head",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'All in your head' office mode.",
+          "savename" : "challenge3",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Old friends",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Old friends' office mode.",
+          "savename" : "challenge4",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Blocker",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Blocker' office mode.",
+          "savename" : "challenge5",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Don't look",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Don't look' office mode.",
+          "savename" : "challenge6",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Air Supply",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Air Supply' office mode.",
+          "savename" : "challenge7",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Error Galore",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Error Galore' office mode.",
+          "savename" : "challenge8",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "Error Galore Hard",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the 'Error Galore Hard' office mode.",
+          "savename" : "challenge9",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "6/20",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the '6/20' office mode.",
+          "savename" : "challenge10",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "4/20",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the '4/20' house mode.",
+          "savename" : "20house",
+          "group" : "Challenges"
+        },
+        {
+          "name" : "2/20",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the '2/20' oxygen mode.",
+          "savename" : "20oxygen",
+          "group" : "Challenges"
+        }
+    ]
+}
