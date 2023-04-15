@@ -1,0 +1,44 @@
+{
+    "name" : "Jolly",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/jolly/165858",
+    "filepath" : "[MMF]\\jolly.ini",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "night",
+          "valuedefault" : "1"
+        },
+        {
+          "name" : "Stars",
+          "type" : "valueslider",
+          "description" : "The amount of stars the player has.",
+          "savename" : "star",
+          "minimum" : "0",
+          "maximum" : "3",
+          "round" : true
+        },
+        {
+          "name" : "Night 6 Unlocked",
+          "type" : "checkbox",
+          "description" : "Whether or not Night 6 is unlocked.",
+          "savename" : "beat5"
+        },
+        {
+          "name" : "Custom Night Unlocked",
+          "type" : "checkbox",
+          "description" : "Whether or not Custom Night and Extras is unlocked.",
+          "savename" : "beat6"
+        },
+        {
+          "name" : "Seen OJ",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has seen OJ before.",
+          "savename" : "oj"
+        }
+    ]
+}
