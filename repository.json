@@ -89,6 +89,10 @@
         {
             "filename" : "Jollibees2",
             "version" : "1.0"
+        },
+        {
+            "filename" : "OblitusCasa",
+            "version" : "1.0"
         }
     ]
 }
