@@ -1,0 +1,39 @@
+{
+  "name": "Five Nights at Treasure Island: Anniversary Edition",
+  "author": "@yo_kai-Falls",
+  "version": "1.0",
+  "link": "https://gamejolt.com/games/fnatianniversary/510774",
+  "filepath": "[MMF]\\anniversary",
+  "values": [
+    {
+      "name": "Night",
+      "type": "editbox",
+      "description": "What night the player is currently on.",
+      "savename": "night",
+      "valuedefault": "1"
+    },
+    {
+      "name": "Star 1",
+      "type": "checkbox",
+      "description": "The star for beating Night 5.",
+      "savename": "beat",
+      "group": "Stars"
+    },
+    {
+      "name": "Star 2",
+      "type": "checkbox",
+      "description": "The star for beating All 20 mode.",
+      "savename": "beat2",
+      "group": "Stars"
+    },
+    {
+      "name": "Intro Cinematic",
+      "type": "checkbox",
+      "description": "Whether or not you've seen the intro cinematic.",
+      "savename": "firsttime",
+      "valuedefault": "1",
+      "onval": "0",
+      "offval": "1"
+    }
+  ]
+}

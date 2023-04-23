@@ -93,6 +93,22 @@
         {
             "filename" : "OblitusCasa",
             "version" : "1.0"
+        },
+        {
+            "filename" : "FNaTI",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNaTIAC",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNaTIAE",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "FNaTIBlueOddities",
+            "version" : "1.0"
         }
     ]
 }

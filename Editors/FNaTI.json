@@ -1,0 +1,216 @@
+{
+  "name": "Five Nights at Treasure Island",
+  "author": "@yo_kai-Falls",
+  "version": "1.0",
+  "link": "https://gamejolt.com/games/treasureislandofficial/222994",
+  "filepath": "[MMF]\\TreasureIsland",
+  "values": [
+    {
+      "name" : "Night",
+      "type" : "multivalueslider",
+      "description" : "What night the player is currently on.",
+      "savename" : "Night",
+      "valuedefault" : "",
+      "minimum" : "1",
+      "values" : 
+      [
+        "",
+        "U%LtRb28z&8a5R,X",
+        "Zb4@k\\Z23Cd%5*Aq",
+        "aCV[,*5\\W?TDLwrq",
+        "7H(}Jp^B3'^=aD<u",
+        "/G.R!u(67{>qqZ)Z",
+        "W9XYbn$CnVPXh$KZ",
+        "P3G75?7_JJU@^p=5",
+        "p@ugEHRs$Jb5R7zy"
+      ]
+    },
+    {
+      "name": "Night Selection",
+      "type": "checkbox",
+      "description": "Whether or not you've got the Night Selection.",
+      "savename": "N0",
+      "valuedefault": "0",
+      "onval": "LFuVu6c{*a}QE4%Y",
+      "offval": "0"
+    },
+    {
+      "name": "Beat Night 6",
+      "type": "checkbox",
+      "description": "Whether or not you got the Night 6 star.",
+      "savename": "N6C",
+      "valuedefault": "0",
+      "onval": "~v8K>Fy_h(%ZcJ\\F",
+      "offval": "0"
+    },
+    {
+      "name": "Nightmare Star",
+      "type": "checkbox",
+      "description": "Whether or not you got the Nightmare Star.",
+      "savename": "Nightmare Mode",
+      "valuedefault": "",
+      "onval": "pK]WA.q6Z.Qhzd!/",
+      "offval": ""
+    },
+    {
+      "name": "True Nightmare Star",
+      "type": "checkbox",
+      "description": "Whether or not you got the True Nightmare Star.",
+      "savename": "True Nightmare",
+      "valuedefault": "",
+      "onval": "JE^26Um@~c4r22er",
+      "offval": ""
+    },
+    {
+      "name": "Endless Night High Score",
+      "type": "editbox",
+      "description": "(Note: Editing this will not add the score to the leaderboard).",
+      "savename": "InfHigh",
+      "valuedefault": "0"
+    },
+    {
+      "name": "Toys Request",
+      "type": "checkbox",
+      "description": "The star for completing the Toys Request challange.",
+      "savename": "Toy",
+      "valuedefault": "0",
+      "onval": "aYf9'p`xG!a[B,eu",
+      "offval": "0"
+    },
+    {
+      "name": "Playtime",
+      "type": "checkbox",
+      "description": "The star for completing the Playtime challange.",
+      "savename": "Playtime",
+      "valuedefault": "0",
+      "onval": "CC9b/%\\P}+d8V^hx",
+      "offval": "0"
+    },
+    {
+      "name": "emityalp (Alpha Build)",
+      "type": "checkbox",
+      "description": "The star for completing the emityalp challange.",
+      "savename": "emityalP",
+      "valuedefault": "0",
+      "onval": "XdB:93BXx8$S:G}X",
+      "offval": "0"
+    },
+    {
+      "name": "Sheepbird's jaunt (Alpha Build)",
+      "type": "checkbox",
+      "description": "The star for completing the Sheepbird's jaunt challange.",
+      "savename": "Sheepbird",
+      "valuedefault": "0",
+      "onval": "Jb(TtG{p2r)g#@)a",
+      "offval": "0"
+    },
+    {
+      "name": "dismembered",
+      "type": "checkbox",
+      "description": "The star for completing the dismembered challange.",
+      "savename": "dismembered",
+      "valuedefault": "0",
+      "onval": "XdB:93BXx8$S:G}X",
+      "offval": "0"
+    },
+    {
+      "name": "Training Wheels",
+      "type": "checkbox",
+      "description": "The star for completing the Training Wheels challange.",
+      "savename": "Practice",
+      "valuedefault": "0",
+      "onval": "2;d}%p9}N5BCB_!\\",
+      "offval": "0"
+    },
+    {
+      "name": "Clubhouse",
+      "type": "checkbox",
+      "description": "The star for completing the Clubhouse challange.",
+      "savename": "clubhouse",
+      "valuedefault": "0",
+      "onval": "Jb(TtG{p2r)g#@)a",
+      "offval": "0"
+    },
+    {
+      "name": "Playtime + (Alpha Build)",
+      "type": "checkbox",
+      "description": "The star for completing the Playtime + challange.",
+      "savename": "Playtime +",
+      "valuedefault": "0",
+      "onval": "#h';rC8?{dv~{w~K",
+      "offval": "0"
+    },
+    {
+      "name": "undeveloped (Alpha Build)",
+      "type": "checkbox",
+      "description": "The star for completing the undeveloped challange.",
+      "savename": "Undeveloped",
+      "valuedefault": "0",
+      "onval": "RmBbS6-L3<gB$$9#",
+      "offval": "0"
+    },
+    {
+      "name": "The Classics",
+      "type": "checkbox",
+      "description": "The star for completing The Classics challange.",
+      "savename": "classics",
+      "valuedefault": "0",
+      "onval": "#h';rC8?{dv~{w~K",
+      "offval": "0"
+    },
+    {
+      "name": "Big Creatures",
+      "type": "checkbox",
+      "description": "The star for completing the Big Creatures challange.",
+      "savename": "big",
+      "valuedefault": "0",
+      "onval": "RmBbS6-L3<gB$$9#",
+      "offval": "0"
+    },
+    {
+      "name": "Good Ol' Days",
+      "type": "checkbox",
+      "description": "The star for completing the Good Ol' Days challange.",
+      "savename": "GoodDays",
+      "valuedefault": "0",
+      "onval": "=qe:+Wq7u6D6\\h;&",
+      "offval": "0"
+    },
+    {
+      "name": "No Toons",
+      "type": "checkbox",
+      "description": "The star for completing the No Toons challange.",
+      "savename": "no toons",
+      "valuedefault": "0",
+      "onval": "9ncryp7oTNY7",
+      "offval": "0"
+    },
+    {
+      "name": "Cat And Mouse (Alpha Build)",
+      "type": "checkbox",
+      "description": "The star for completing the Cat And Mouse challange.",
+      "savename": "Cat",
+      "valuedefault": "0",
+      "onval": "*EXEGnXY>3}mDt8H",
+      "offval": "0"
+    },
+    {
+      "name": "All Mice Night",
+      "type": "checkbox",
+      "description": "The star for completing the All Mice Night challange.",
+      "savename": "mice",
+      "valuedefault": "0",
+      "onval": "*EXEGnXY>3}mDt8H",
+      "offval": "0"
+    },
+    {
+      "name": "Intro Cinematic",
+      "type": "checkbox",
+      "description": "Whether or not you've seen the intro cinematic.",
+      "savename": "firsttime",
+      "valuedefault": "1",
+      "onval": "0",
+      "offval": "1"
+    }
+  ]
+}
