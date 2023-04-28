@@ -1,34 +1,89 @@
 {
-    "name" : "Five Nights at Candy's Remastered",
-    "author" : "@AitYunivers",
-    "link" : "https://gamejolt.com/games/five-nights-at-candy-s-remastered/426659",
-    "version" : "1.0",
-    "encrypted" : true,
-    "encryptionkey" : "AceJenSpaceFren",
-    "filepath" : "[APPDATA]\\Five Nights at Candy's Remastered\\game.save",
-    "defaultsavegroup" : "game",
-    "values" :
-    [
+    "name": "Five Nights at Candy's Remastered",
+    "author": "@AitYunivers",
+    "link": "https://gamejolt.com/games/five-nights-at-candy-s-remastered/426659",
+    "version": "1.0",
+    "encrypted": true,
+    "encryptionkey": "AceJenSpaceFren",
+    "filepath": "[APPDATA]\\Five Nights at Candy's Remastered\\game.save",
+    "defaultsavegroup": "game",
+    "values": [
         {
-          "name" : "Night",
-          "type" : "editbox",
-          "description" : "What night the player is currently on.",
-          "savename" : "night",
-          "valuedefault" : "1"
+            "name": "Night",
+            "type": "editbox",
+            "description": "What night the player is currently on.",
+            "savename": "night",
+            "valuedefault": "1"
         },
         {
-            "name" : "1st, 2nd, and 3rd Star",
-            "type" : "valueslider",
-            "description" : "The first, second, and third star.",
-            "savename" : "beatgame",
-            "valuedefault" : "0",
-            "maximum" : "3"
+            "name": "1st, 2nd, and 3rd Star",
+            "type": "valueslider",
+            "description": "The first, second, and third star.",
+            "savename": "beatgame",
+            "valuedefault": "0",
+            "maximum": "3"
         },
         {
-            "name" : "4th Star",
-            "type" : "checkbox",
-            "description" : "The fourth star.",
-            "savename" : "gotcam13"
+            "name": "Code 1",
+            "type": "editbox",
+            "description": "First code for triggering the Shadow Night on the CN screen",
+            "savename": "code1",
+            "valuedefault": "0",
+            "maximum": "20"
+        },
+        {
+            "name": "Code 2",
+            "type": "editbox",
+            "description": "Second code for triggering the Shadow Night on the CN screen",
+            "savename": "code2",
+            "valuedefault": "0",
+            "maximum": "20"
+        },
+        {
+            "name": "Code 3",
+            "type": "editbox",
+            "description": "Third code for triggering the Shadow Night on the CN screen",
+            "savename": "code3",
+            "valuedefault": "0",
+            "maximum": "20"
+        },
+        {
+            "name": "Code 4",
+            "type": "editbox",
+            "description": "Fourth code for triggering the Shadow Night on the CN screen",
+            "savename": "code4",
+            "valuedefault": "0",
+            "maximum": "20"
+        },
+        {
+            "name": "Code 5",
+            "type": "editbox",
+            "description": "Fifth code for triggering the Shadow Night on the CN screen",
+            "savename": "code5",
+            "valuedefault": "0",
+            "maximum": "20"
+        },
+        {
+            "name": "Code 6",
+            "type": "editbox",
+            "description": "Sixth code for triggering the Shadow Night on the CN screen",
+            "savename": "code6",
+            "valuedefault": "0",
+            "maximum": "20"
+        },
+        {
+            "name": "Code 7",
+            "type": "editbox",
+            "description": "Seventh code for triggering the Shadow Night on the CN screen",
+            "savename": "code7",
+            "valuedefault": "0",
+            "maximum": "20"
+        },
+        {
+            "name": "4th Star",
+            "type": "checkbox",
+            "description": "The fourth star.",
+            "savename": "gotcam13"
         }
     ]
 }
