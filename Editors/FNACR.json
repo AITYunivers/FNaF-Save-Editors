@@ -29,7 +29,6 @@
             "description": "First code for triggering the Shadow Night on the CN screen",
             "savename": "code1",
             "valuedefault": "0",
-            "maximum": "20"
         },
         {
             "name": "Code 2",
@@ -37,7 +36,6 @@
             "description": "Second code for triggering the Shadow Night on the CN screen",
             "savename": "code2",
             "valuedefault": "0",
-            "maximum": "20"
         },
         {
             "name": "Code 3",
@@ -45,7 +43,6 @@
             "description": "Third code for triggering the Shadow Night on the CN screen",
             "savename": "code3",
             "valuedefault": "0",
-            "maximum": "20"
         },
         {
             "name": "Code 4",
@@ -53,7 +50,6 @@
             "description": "Fourth code for triggering the Shadow Night on the CN screen",
             "savename": "code4",
             "valuedefault": "0",
-            "maximum": "20"
         },
         {
             "name": "Code 5",
@@ -61,7 +57,6 @@
             "description": "Fifth code for triggering the Shadow Night on the CN screen",
             "savename": "code5",
             "valuedefault": "0",
-            "maximum": "20"
         },
         {
             "name": "Code 6",
@@ -69,7 +64,6 @@
             "description": "Sixth code for triggering the Shadow Night on the CN screen",
             "savename": "code6",
             "valuedefault": "0",
-            "maximum": "20"
         },
         {
             "name": "Code 7",
@@ -77,7 +71,6 @@
             "description": "Seventh code for triggering the Shadow Night on the CN screen",
             "savename": "code7",
             "valuedefault": "0",
-            "maximum": "20"
         },
         {
             "name": "4th Star",
