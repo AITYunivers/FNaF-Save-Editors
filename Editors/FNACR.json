@@ -24,6 +24,12 @@
             "maximum": "3"
         },
         {
+            "name": "4th Star",
+            "type": "checkbox",
+            "description": "The fourth star.",
+            "savename": "gotcam13"
+        },
+        {
             "name": "Code 1",
             "type": "editbox",
             "description": "First code for triggering the Shadow Night on the CN screen",
@@ -71,12 +77,6 @@
             "description": "Seventh code for triggering the Shadow Night on the CN screen",
             "savename": "code7",
             "valuedefault": "0",
-        },
-        {
-            "name": "4th Star",
-            "type": "checkbox",
-            "description": "The fourth star.",
-            "savename": "gotcam13"
         }
     ]
 }
