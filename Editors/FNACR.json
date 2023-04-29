@@ -35,7 +35,7 @@
             "description": "First code for triggering the Shadow Night on the CN screen",
             "savename": "code1",
             "valuedefault": "0",
-            "group": "Shadow Night Codes'
+            "group": "Shadow Night Codes"
         },
         {
             "name": "Code 2",
