@@ -2,7 +2,7 @@
     "name" : "Five Nights at Candy's Remastered",
     "author" : "@AitYunivers",
     "link" : "https://gamejolt.com/games/five-nights-at-candy-s-remastered/426659",
-    "version" : "1.0",
+    "version" : "1.1",
     "encrypted" : true,
     "encryptionkey" : "AceJenSpaceFren",
     "filepath" : "[APPDATA]\\Five Nights at Candy's Remastered\\game.save",
@@ -29,6 +29,69 @@
             "type" : "checkbox",
             "description" : "The fourth star.",
             "savename" : "gotcam13"
+        },
+        {
+            "name" : "Shadow Mode Code 1",
+            "type" : "valueslider",
+            "description" : "The code value for Candy's AI for Shadow Mode.",
+            "savename" : "code1",
+            "minimum" : "0",
+            "maximum" : "20",
+            "group" : "Shadow Mode"
+        },
+        {
+            "name" : "Shadow Mode Code 2",
+            "type" : "valueslider",
+            "description" : "The code value for Cindy's AI for Shadow Mode.",
+            "savename" : "code2",
+            "minimum" : "0",
+            "maximum" : "20",
+            "group" : "Shadow Mode"
+        },
+        {
+            "name" : "Shadow Mode Code 3",
+            "type" : "valueslider",
+            "description" : "The code value for Chester's AI for Shadow Mode.",
+            "savename" : "code3",
+            "minimum" : "0",
+            "maximum" : "20",
+            "group" : "Shadow Mode"
+        },
+        {
+            "name" : "Shadow Mode Code 4",
+            "type" : "valueslider",
+            "description" : "The code value for Penguin's AI for Shadow Mode.",
+            "savename" : "code4",
+            "minimum" : "0",
+            "maximum" : "20",
+            "group" : "Shadow Mode"
+        },
+        {
+            "name" : "Shadow Mode Code 5",
+            "type" : "valueslider",
+            "description" : "The code value for Old Candy's AI for Shadow Mode.",
+            "savename" : "code5",
+            "minimum" : "0",
+            "maximum" : "20",
+            "group" : "Shadow Mode"
+        },
+        {
+            "name" : "Shadow Mode Code 6",
+            "type" : "valueslider",
+            "description" : "The code value for Blank's AI for Shadow Mode.",
+            "savename" : "code6",
+            "minimum" : "0",
+            "maximum" : "20",
+            "group" : "Shadow Mode"
+        },
+        {
+            "name" : "Shadow Mode Code 7",
+            "type" : "valueslider",
+            "description" : "The code value for RAT's AI for Shadow Mode.",
+            "savename" : "code7",
+            "minimum" : "0",
+            "maximum" : "20",
+            "group" : "Shadow Mode"
         }
     ]
 }
