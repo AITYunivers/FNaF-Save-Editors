@@ -1,5 +1,6 @@
 {
-    "version" : "2.0.2",
+    "version" : "2.0.3",
+    "changelog" : "Changelog:\nAdded group support.\nFixed Lego FNaF crashing.\nFixed blank spaces in ini crashing.",
     "editors" : 
     [
         {
