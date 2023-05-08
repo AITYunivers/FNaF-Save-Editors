@@ -1,0 +1,18 @@
+{
+    "name" : "Five Nights at Treasure Island 2",
+    "author" : "@AITYunivers",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/FNaTI-TC/317116",
+    "filepath" : "[MMF]\\fnati2",
+    "defaultsavegroup" : "fnati2",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "night",
+          "valuedefault" : "1"
+        }
+    ]
+}

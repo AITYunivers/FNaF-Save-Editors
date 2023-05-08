@@ -1,0 +1,42 @@
+{
+    "name" : "The Lost Ones: Five Nights at Treasure Island Remastered",
+    "author" : "@yo_kai-Falls",
+    "version" : "1.0",
+    "link" : "https://gamejolt.com/games/FNaTI-TC/317116",
+    "filepath" : "[MMF]\\FNaTI2017R",
+    "defaultsavegroup" : "FNaTI2017R",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "night",
+          "valuedefault" : "1"
+        },
+        {
+          "name": "Night 6",
+          "type": "checkbox",
+          "description": "Whether or not night 6 is unlocked.",
+          "savename": "Night 6"
+        },
+        {
+          "name": "Extras",
+          "type": "checkbox",
+          "description": "Whether or not extras is unlocked.",
+          "savename": "Extras"
+        },
+        {
+          "name": "All 20",
+          "type": "checkbox",
+          "description": "Whether or not the player has beaten the max mode.",
+          "savename": "All 20"
+        },
+        {
+          "name": "Caverns",
+          "type": "checkbox",
+          "description": "Whether or not the player should load into the Caverns.",
+          "savename": "Caverns"
+        }
+    ]
+}
