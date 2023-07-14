@@ -1,6 +1,6 @@
 {
-    "version" : "2.0.4",
-    "changelog" : "Changelog:\nAdded Unreal Engine 4 '.sav' support.\nFixed crashes.",
+    "version" : "2.0.5",
+    "changelog" : "Changelog:\nAdded '.json' support.",
     "editors" : 
     [
         {
@@ -149,6 +149,10 @@
         },
         {
             "filename" : "Grizzlys",
+            "version" : "1.0"
+        },
+        {
+            "filename" : "GrizzlysVR",
             "version" : "1.0"
         }
     ]

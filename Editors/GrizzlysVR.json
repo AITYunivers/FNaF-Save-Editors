@@ -1,0 +1,29 @@
+{
+    "name" : "Grizzly's VR",
+    "link" : "https://gamejolt.com/games/grizzlyvr/756382",
+    "version" : "1.0",
+    "author" : "@AitYunivers",
+    "filepath" : "[LOCALLOWAPPDATA]\\Grizzlys\\GrizzlyVR\\saveFile.json",
+    "engine" : "json",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "Nights",
+          "savetype" : "Int",
+          "valuedefault" : "1"
+        },
+        {
+          "name" : "4/20",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the Custom Night on 4/20.",
+          "savename" : "CN",
+          "savetype" : "Int",
+          "valuedefault" : "0",
+          "onval" : "1",
+          "offval" : "0"
+        }
+    ]
+}
