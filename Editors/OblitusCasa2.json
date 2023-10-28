@@ -1,0 +1,95 @@
+{
+    "name" : "Oblitus Casa 2.0",
+    "link" : "https://gamejolt.com/games/OblitusCasa/356260",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "encrypted" : true,
+    "encryptionkey" : "casa",
+    "filepath" : "C:\\ProgramData\\casa",
+    "defaultsavegroup" : "General",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "Save",
+          "valuedefault" : "1"
+        },
+        {
+          "name" : "Extra Content Unlocked",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has Custom Night and Extras unlocked.",
+          "savename" : "Save10Hit"
+        },
+        {
+          "name" : "Star 1",
+          "type" : "valueslider",
+          "description" : "Whether or not the player has beaten the mother and the sixth night.",
+          "savename" : "CabinFaceUnlock",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "Star 2",
+          "type" : "valueslider",
+          "description" : "Whether or not the player has defeated Jeff the Killer.",
+          "savename" : "PNMUnlock",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "Star 3",
+          "type" : "valueslider",
+          "description" : "Whether or not the player has defeated Slender Man.",
+          "savename" : "SlesterUnlock",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "Star 4",
+          "type" : "valueslider",
+          "description" : "Whether or not the player has defeated Smile Dog.",
+          "savename" : "OswaldUnlock",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "Star 5",
+          "type" : "valueslider",
+          "description" : "Whether or not the player has defeated Eyeless Jack.",
+          "savename" : "IBMUnlock",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "Star 6",
+          "type" : "valueslider",
+          "description" : "Whether or not the player has beaten Limbo.",
+          "savename" : "PostMortemUnlock",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "Star 7",
+          "type" : "valueslider",
+          "description" : "Whether or not the player has beaten True Nightmare.",
+          "savename" : "TrueNightmare",
+          "minimum" : "0",
+          "maximum" : "2",
+          "round" : true
+        },
+        {
+          "name" : "Seen Mortimer",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has seen Mortimer",
+          "savename" : "seenMortimer"
+        }
+    ]
+}
