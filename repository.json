@@ -158,6 +158,10 @@
         {
             "filename" : "GrizzlysVR",
             "version" : "1.0"
+        },
+        {
+            "filename" : "PlaytimeWithPercy",
+            "version" : "1.0"
         }
     ]
 }

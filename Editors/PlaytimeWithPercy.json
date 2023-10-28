@@ -1,0 +1,208 @@
+{
+    "name" : "Playtime with Percy",
+    "link" : "https://gamejolt.com/games/PwP/669217",
+    "author" : "@AitYunivers",
+    "version" : "1.0",
+    "encrypted" : true,
+    "encryptionkey" : "chrisplumpyeggberg",
+    "filepath" : "[APPDATA]\\PlaytimeWithPercy\\PWP.ini",
+    "defaultsavegroup" : "Save",
+    "values" :
+    [
+        {
+          "name" : "Night",
+          "type" : "editbox",
+          "description" : "What night the player is currently on.",
+          "savename" : "Nights",
+          "valuedefault" : "0"
+        },
+        {
+          "name" : "Minigane Night",
+          "type" : "editbox",
+          "description" : "What minigame night the player is currently on.",
+          "savename" : "MinigameNight",
+          "valuedefault" : "0"
+        },
+        {
+          "name" : "Sunny Puppet",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has unlocked the Sunny puppet.",
+          "savename" : "SunnyGot"
+        },
+        {
+          "name" : "Helios Puppet",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has unlocked the Helios puppet.",
+          "savename" : "HeliosGot"
+        },
+        {
+          "name" : "Viola Puppet",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has unlocked the Viola puppet.",
+          "savename" : "ViolaGot"
+        },
+        {
+          "name" : "Truman Puppet",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has unlocked the Truman puppet.",
+          "savename" : "TrumanGot"
+        },
+        {
+          "name" : "Alternate Ending",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has seen the alternate ending.",
+          "savename" : "AltEnding"
+        },
+        {
+          "name" : "Endless Score",
+          "type" : "editbox",
+          "description" : "The player's high score in Endless Mode.",
+          "savename" : "Endless Score",
+          "valuedefault" : "0"
+        },
+        {
+          "name" : "Max Mode Beaten",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the Max Mode.",
+          "savename" : "MaxModeBeat"
+        },
+        {
+          "name" : "Max Mode Boss Beaten",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the Max Mode Boss.",
+          "savename" : "MaxModeBossBeat"
+        },
+        {
+          "name" : "Aggressive Max Mode Beaten",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the Max Mode on Aggressive.",
+          "savename" : "MaxModeBeatAGGRO"
+        },
+        {
+          "name" : "Aggressive Max Mode Boss Beaten",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has beaten the Max Mode Boss on Aggressive.",
+          "savename" : "MaxModeBossBeatAGGRO"
+        },
+        {
+          "name" : "Night 1 Rank",
+          "type" : "editbox",
+          "description" : "What rank the player obtained on Night 1.",
+          "savename" : "Rank1",
+          "valuedefault" : "F",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 1 Main Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 1's Main Night.",
+          "savename" : "TotalTime1Main",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 1 Task Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 1's Task.",
+          "savename" : "TotalTime1Task",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 2 Rank",
+          "type" : "editbox",
+          "description" : "What rank the player obtained on Night 2.",
+          "savename" : "Rank2",
+          "valuedefault" : "F",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 2 Main Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 2's Main Night.",
+          "savename" : "TotalTime2Main",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 2 Task Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 2's Task.",
+          "savename" : "TotalTime2Task",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 3 Rank",
+          "type" : "editbox",
+          "description" : "What rank the player obtained on Night 3.",
+          "savename" : "Rank3",
+          "valuedefault" : "F",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 3 Main Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 3's Main Night.",
+          "savename" : "TotalTime3Main",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 3 Task Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 3's Task.",
+          "savename" : "TotalTime3Task",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 4 Rank",
+          "type" : "editbox",
+          "description" : "What rank the player obtained on Night 4.",
+          "savename" : "Rank4",
+          "valuedefault" : "F",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 4 Main Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 4's Main Night.",
+          "savename" : "TotalTime4Main",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 4 Task Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 4's Task.",
+          "savename" : "TotalTime4Task",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 5 Rank",
+          "type" : "editbox",
+          "description" : "What rank the player obtained on Night 5.",
+          "savename" : "Rank5",
+          "valuedefault" : "F",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 5 Main Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 5's Main Night.",
+          "savename" : "TotalTime5Main",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        },
+        {
+          "name" : "Night 5 Task Time",
+          "type" : "editbox",
+          "description" : "What time the player obtained on Night 5's Task.",
+          "savename" : "TotalTime5Task",
+          "valuedefault" : "0:00.00",
+          "group" : "High Scores"
+        }
+    ]
+}
