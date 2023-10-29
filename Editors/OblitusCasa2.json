@@ -2,7 +2,7 @@
     "name" : "Oblitus Casa 2.0",
     "link" : "https://gamejolt.com/games/OblitusCasa/356260",
     "author" : "@AitYunivers",
-    "version" : "1.0",
+    "version" : "1.1",
     "encrypted" : true,
     "encryptionkey" : "casa",
     "filepath" : "C:\\ProgramData\\casa",
@@ -84,6 +84,12 @@
           "minimum" : "0",
           "maximum" : "2",
           "round" : true
+        },
+        {
+          "name" : "Corruptus Unlocked",
+          "type" : "checkbox",
+          "description" : "Whether or not the player has unlocked Corruptus",
+          "savename" : "CorruptusUnlock"
         },
         {
           "name" : "Seen Mortimer",
