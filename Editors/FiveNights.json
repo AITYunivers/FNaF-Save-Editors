@@ -1,0 +1,53 @@
+{
+  "Meta":
+  {
+    "GameName" : "Five Nights at Freddy's",
+    "GameLink" : "https://store.steampowered.com/app/319510/",
+    "EditorVersion" : "1.0",
+    "EditorAuthor" : "@AitYunivers",
+    "EditorID": "FiveNights"
+  },
+  "Config":
+  {
+    "FilePath" : "[MMF]\\freddy",
+    "DefaultSaveGroup" : "freddy",
+    "EditorType": "Ini"
+  },
+  "Values" :
+  [
+    {
+      "ValueName" : "Night",
+      "EditType" : "InputNumber",
+      "ValueAbout" : "What night the player is currently on.",
+      "ValueSaveName" : "level",
+      "ValueDefault" : "1"
+    },
+    {
+      "ValueName" : "Star 1",
+      "EditType" : "Checkbox",
+      "ValueAbout" : "The first star, obtained for beating Night 5.",
+      "ValueSaveName" : "beatgame",
+      "ValueOffValue" : "0",
+      "ValueOnValue" : "1",
+      "EditorGroup" : "Stars"
+    },
+    {
+      "ValueName" : "Star 2",
+      "EditType" : "Checkbox",
+      "ValueAbout" : "The second star, obtained for beating Night 6.",
+      "ValueSaveName" : "beat6",
+      "ValueOffValue" : "0",
+      "ValueOnValue" : "1",
+      "EditorGroup" : "Stars"
+    },
+    {
+      "ValueName" : "Star 3",
+      "EditType" : "Checkbox",
+      "ValueAbout" : "The third star, obtained for beating 20/20/20/20 mode.",
+      "ValueSaveName" : "beat7",
+      "ValueOffValue" : "0",
+      "ValueOnValue" : "1",
+      "EditorGroup" : "Stars"
+    }
+  ]
+}
