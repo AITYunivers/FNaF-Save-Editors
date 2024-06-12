@@ -31,6 +31,7 @@
       "EditType" : "Checkbox",
       "ValueAbout" : "The first star, obtained for beating Night 5.",
       "ValueSaveName" : "beatgame",
+      "ValueDefault" : "0",
       "ValueOffValue" : "0",
       "ValueOnValue" : "1"
     },
@@ -39,6 +40,7 @@
       "EditType" : "Checkbox",
       "ValueAbout" : "The second star, obtained for beating Night 6.",
       "ValueSaveName" : "beat6",
+      "ValueDefault" : "0",
       "ValueOffValue" : "0",
       "ValueOnValue" : "1"
     },
@@ -47,6 +49,7 @@
       "EditType" : "Checkbox",
       "ValueAbout" : "The third star, obtained for beating 20/20/20/20 mode.",
       "ValueSaveName" : "beat7",
+      "ValueDefault" : "0",
       "ValueOffValue" : "0",
       "ValueOnValue" : "1"
     },
