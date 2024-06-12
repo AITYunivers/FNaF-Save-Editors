@@ -23,13 +23,16 @@
       "ValueDefault" : "1"
     },
     {
+      "ValueName" : "Stars",
+      "EditType" : "GroupStart"
+    },
+    {
       "ValueName" : "Star 1",
       "EditType" : "Checkbox",
       "ValueAbout" : "The first star, obtained for beating Night 5.",
       "ValueSaveName" : "beatgame",
       "ValueOffValue" : "0",
-      "ValueOnValue" : "1",
-      "EditorGroup" : "Stars"
+      "ValueOnValue" : "1"
     },
     {
       "ValueName" : "Star 2",
@@ -37,8 +40,7 @@
       "ValueAbout" : "The second star, obtained for beating Night 6.",
       "ValueSaveName" : "beat6",
       "ValueOffValue" : "0",
-      "ValueOnValue" : "1",
-      "EditorGroup" : "Stars"
+      "ValueOnValue" : "1"
     },
     {
       "ValueName" : "Star 3",
@@ -46,8 +48,11 @@
       "ValueAbout" : "The third star, obtained for beating 20/20/20/20 mode.",
       "ValueSaveName" : "beat7",
       "ValueOffValue" : "0",
-      "ValueOnValue" : "1",
-      "EditorGroup" : "Stars"
+      "ValueOnValue" : "1"
+    },
+    {
+      "ValueName" : "Stars",
+      "EditType" : "GroupEnd"
     }
   ]
 }
