@@ -9,9 +9,9 @@
   },
   "Config":
   {
+    "EditorType": "Ini",
     "FilePath" : "[MMF]\\freddy",
-    "DefaultSaveGroup" : "freddy",
-    "EditorType": "Ini"
+    "DefaultSaveGroup" : "freddy"
   },
   "Values" :
   [
@@ -24,7 +24,8 @@
     },
     {
       "ValueName" : "Stars",
-      "EditType" : "GroupStart"
+      "EditType" : "GroupStart",
+      "ValueAbout" : "The stars obtained by progressing."
     },
     {
       "ValueName" : "Star 1",
