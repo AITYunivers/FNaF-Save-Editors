@@ -1,0 +1,245 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Candy's 3",
+    "GameLink": "https://gamejolt.com/games/five-nights-at-candy-s-3-official/130420",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAC3"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\fivecandys3",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "fivecandys3"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Slider",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "25",
+      "SliderData": {
+        "SliderType": "MultiVariable",
+        "Minimum": 1.0,
+        "Round": false,
+        "Variables": [
+          "25",
+          "12",
+          "4901",
+          "5833",
+          "58103"
+        ]
+      },
+      "IniData": {
+        "ValueSaveName": "lvl"
+      }
+    },
+    {
+      "ValueName": "1st and 2nd Star",
+      "EditType": "Slider",
+      "ValueAbout": "The first and second star.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "MultiVariable",
+        "Round": false,
+        "Variables": [
+          "0",
+          "1921",
+          "512596"
+        ]
+      },
+      "IniData": {
+        "ValueSaveName": "win"
+      }
+    },
+    {
+      "ValueName": "3rd Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third star.",
+      "CheckboxData": {
+        "OnValue": "8277"
+      },
+      "IniData": {
+        "ValueSaveName": "s02"
+      }
+    },
+    {
+      "ValueName": "Star Piece 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first piece of the fourth star.",
+      "CheckboxData": {
+        "OnValue": "7624786"
+      },
+      "IniData": {
+        "ValueSaveName": "gmm"
+      }
+    },
+    {
+      "ValueName": "Star Piece 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second piece of the fourth star.",
+      "CheckboxData": {
+        "OnValue": "162145"
+      },
+      "IniData": {
+        "ValueSaveName": "ghu"
+      }
+    },
+    {
+      "ValueName": "Star Piece 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third piece of the fourth star.",
+      "CheckboxData": {
+        "OnValue": "76583491"
+      },
+      "IniData": {
+        "ValueSaveName": "gaw"
+      }
+    },
+    {
+      "ValueName": "Star Piece 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fourth piece of the fourth star.",
+      "CheckboxData": {
+        "OnValue": "8353524"
+      },
+      "IniData": {
+        "ValueSaveName": "gne"
+      }
+    },
+    {
+      "ValueName": "Star Piece 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fifth piece of the fourth star.",
+      "CheckboxData": {
+        "OnValue": "28878352"
+      },
+      "IniData": {
+        "ValueSaveName": "hau"
+      }
+    },
+    {
+      "ValueName": "Challenge Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first challenge star.",
+      "CheckboxData": {
+        "OnValue": "16"
+      },
+      "IniData": {
+        "ValueSaveName": "bc1"
+      }
+    },
+    {
+      "ValueName": "Challenge Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second challenge star.",
+      "CheckboxData": {
+        "OnValue": "204"
+      },
+      "IniData": {
+        "ValueSaveName": "bc2"
+      }
+    },
+    {
+      "ValueName": "Challenge Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third challenge star.",
+      "CheckboxData": {
+        "OnValue": "238"
+      },
+      "IniData": {
+        "ValueSaveName": "bc3"
+      }
+    },
+    {
+      "ValueName": "Challenge Star 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fourth challenge star.",
+      "CheckboxData": {
+        "OnValue": "28104"
+      },
+      "IniData": {
+        "ValueSaveName": "bc4"
+      }
+    },
+    {
+      "ValueName": "Minigame 1 Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the first minigame is unlocked.",
+      "CheckboxData": {
+        "OnValue": "90"
+      },
+      "IniData": {
+        "ValueSaveName": "m1u"
+      }
+    },
+    {
+      "ValueName": "Minigame 2 Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the second minigame is unlocked.",
+      "CheckboxData": {
+        "OnValue": "48"
+      },
+      "IniData": {
+        "ValueSaveName": "m2u"
+      }
+    },
+    {
+      "ValueName": "Minigame 3 Unlocked",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the third minigame is unlocked.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "MultiSave",
+        "Round": false,
+        "SaveNames": [
+          "m3u",
+          "m4u",
+          "m5u"
+        ],
+        "Variables": [
+          "0",
+          "2325",
+          "245",
+          "873"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Minigame 1 Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "Star obtained within the first minigame.",
+      "CheckboxData": {
+        "OnValue": "815"
+      },
+      "IniData": {
+        "ValueSaveName": "m1c"
+      }
+    },
+    {
+      "ValueName": "Minigame 2 Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "Star obtained within the second minigame.",
+      "CheckboxData": {
+        "OnValue": "471"
+      },
+      "IniData": {
+        "ValueSaveName": "m2c"
+      }
+    },
+    {
+      "ValueName": "Minigame 3 Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "Star obtained within the third minigame.",
+      "CheckboxData": {
+        "OnValue": "2522"
+      },
+      "IniData": {
+        "ValueSaveName": "m3c"
+      }
+    }
+  ]
+}

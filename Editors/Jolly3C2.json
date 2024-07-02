@@ -1,0 +1,320 @@
+{
+  "Meta": {
+    "GameName": "Jolly 3: Chapter 2",
+    "GameLink": "https://gamejolt.com/games/jolly3chapter2/320365",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "Jolly3C2"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\j3c2.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Stage",
+      "EditType": "Editbox",
+      "ValueAbout": "What stage the player is currently on.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "stage"
+      }
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the first star has been obtained.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat5"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the second star has been obtained.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "20mode"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the third star has been obtained.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "good"
+      }
+    },
+    {
+      "ValueName": "Is Roaming",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player should be roaming.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "roaming"
+      }
+    },
+    {
+      "ValueName": "Roaming Tutorial",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not to show the roaming tutorial.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "roamtut"
+      }
+    },
+    {
+      "ValueName": "Has 1st Clue",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the first clue.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "clue1"
+      }
+    },
+    {
+      "ValueName": "Has 2nd Clue",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the second clue.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "clue2"
+      }
+    },
+    {
+      "ValueName": "Has 3rd Clue",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the third clue.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "clue3"
+      }
+    },
+    {
+      "ValueName": "Has 4th Clue",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the fourth clue.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "clue4"
+      }
+    },
+    {
+      "ValueName": "Has 1st Zip",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the first zip.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "zip1"
+      }
+    },
+    {
+      "ValueName": "Has 2nd Zip",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the second zip.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "zip2"
+      }
+    },
+    {
+      "ValueName": "Has 3rd Zip",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the third zip.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "zip3"
+      }
+    },
+    {
+      "ValueName": "Has 4th Zip",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the fourth zip.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "zip4"
+      }
+    },
+    {
+      "ValueName": "George Minigame Complete",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player finished George's minigame.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "balloons1"
+      }
+    },
+    {
+      "ValueName": "Tweetie Minigame Complete",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player finished Tweetie's minigame.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "balloons2"
+      }
+    },
+    {
+      "ValueName": "Maxie Minigame Complete",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player finished Maxie's minigame.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "balloons3"
+      }
+    },
+    {
+      "ValueName": "Eric Minigame Complete",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player finished Eric's minigame.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "eric"
+      }
+    },
+    {
+      "ValueName": "Tony Minigame Complete",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player finished Tony's minigame.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "tony"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Birds and the Bees",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Birds and the Bees' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge1"
+      }
+    },
+    {
+      "ValueName": "Something Borrowed",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Something Borrowed' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge2"
+      }
+    },
+    {
+      "ValueName": "All in your head",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'All in your head' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge3"
+      }
+    },
+    {
+      "ValueName": "Old friends",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Old friends' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge4"
+      }
+    },
+    {
+      "ValueName": "Blocker",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Blocker' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge5"
+      }
+    },
+    {
+      "ValueName": "Don't look",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Don't look' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge6"
+      }
+    },
+    {
+      "ValueName": "Air Supply",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Air Supply' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge7"
+      }
+    },
+    {
+      "ValueName": "Error Galore",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Error Galore' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge8"
+      }
+    },
+    {
+      "ValueName": "Error Galore Hard",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Error Galore Hard' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge9"
+      }
+    },
+    {
+      "ValueName": "6/20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the '6/20' office mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "challenge10"
+      }
+    },
+    {
+      "ValueName": "4/20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the '4/20' house mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "20house"
+      }
+    },
+    {
+      "ValueName": "2/20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the '2/20' oxygen mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "20oxygen"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

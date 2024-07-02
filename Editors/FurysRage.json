@@ -1,0 +1,65 @@
+{
+  "Meta": {
+    "GameName": "Fury's Rage",
+    "GameLink": "https://gamejolt.com/games/furysrage/611180",
+    "EditorVersion": "1.0",
+    "EditorID": "FurysRage"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\SB",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "SB"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Play Intro",
+      "EditType": "Checkbox",
+      "ValueAbout": "Controls whether or not intro plays.",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "intro"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first star, obtained by beating the game on Normal Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c1"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second star, obtained by beating the game on Hard Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c2"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third star, obtained by beating the game on Hard Mode without dying and without using Animdude.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c3"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

@@ -1,0 +1,2838 @@
+{
+  "Meta": {
+    "GameName": "Popgoes Arcade",
+    "GameLink": "https://store.steampowered.com/app/1986840/POPGOES_Arcade/",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "PopgoesArcade"
+  },
+  "Config": {
+    "FilePath": "[APPDATA]\\POPGOES Arcade 2020\\game.save",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "u82c2lIIm4rnAcew",
+      "DefaultSaveGroup": "game"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Encryption (Ignore)",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Encryption 1",
+      "EditType": "Editbox",
+      "ValueAbout": "Value used for encryption checks",
+      "ValueDefault": "Literally just a random string, for testing purposes. Boy I sure hope to get me some $$$ one day, that way I can purchase the new Zeon X49430-?'*2^^4 3 X-megafloptastic terabit-per-mile laptop with which I wish to game like never before!`!?",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "c0",
+        "ValueSaveGroup": "crypt"
+      }
+    },
+    {
+      "ValueName": "Encryption 2",
+      "EditType": "Editbox",
+      "ValueAbout": "Value used for encryption checks",
+      "ValueDefault": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "c1",
+        "ValueSaveGroup": "crypt"
+      }
+    },
+    {
+      "ValueName": "Encryption 3",
+      "EditType": "Editbox",
+      "ValueAbout": "Value used for encryption checks",
+      "ValueDefault": "Connection terminated. I'm sorry to interrupt you, Elizabeth. If you still even remember that name. But I'm afraid you've been misinformed. You are not here to receive a gift. Nor, have you been called here by the individual you assume.",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "c2",
+        "ValueSaveGroup": "crypt"
+      }
+    },
+    {
+      "ValueName": "Encryption (Ignore)",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Player Info",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Player X",
+      "EditType": "Editbox",
+      "ValueAbout": "The Player's X Coordinate.",
+      "ValueDefault": "1824",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val00"
+      }
+    },
+    {
+      "ValueName": "Player Y",
+      "EditType": "Editbox",
+      "ValueAbout": "The Player's Y Coordinate.",
+      "ValueDefault": "1264",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val01"
+      }
+    },
+    {
+      "ValueName": "Player Direction",
+      "EditType": "Slider",
+      "ValueAbout": "The Player's Direction.",
+      "ValueDefault": "24",
+      "SliderData": {
+        "SliderType": "MultiVariable",
+        "Round": false,
+        "Variables": [
+          "0",
+          "8",
+          "16",
+          "24"
+        ]
+      },
+      "IniData": {
+        "ValueSaveName": "val02"
+      }
+    },
+    {
+      "ValueName": "Player Health",
+      "EditType": "Editbox",
+      "ValueAbout": "The Player's HP Value.",
+      "ValueDefault": "30",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val09"
+      }
+    },
+    {
+      "ValueName": "Player Strength",
+      "EditType": "Editbox",
+      "ValueAbout": "The Player's ATK Value.",
+      "ValueDefault": "4",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val10"
+      }
+    },
+    {
+      "ValueName": "Player Coins",
+      "EditType": "Slider",
+      "ValueAbout": "The Player's Coin Value.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 995.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val12"
+      }
+    },
+    {
+      "ValueName": "Player Emeralds/Scraps",
+      "EditType": "Slider",
+      "ValueAbout": "The Player's Emerald/Scrap Value.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 99.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val30"
+      }
+    },
+    {
+      "ValueName": "Player Color",
+      "EditType": "Slider",
+      "ValueAbout": "The Player's Vest and Room Color.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 9.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val42"
+      }
+    },
+    {
+      "ValueName": "Key 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the Player has the first key.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val27"
+      }
+    },
+    {
+      "ValueName": "Key 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the Player has the second key.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val28"
+      }
+    },
+    {
+      "ValueName": "Key 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the Player has the third key.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val29"
+      }
+    },
+    {
+      "ValueName": "Player Info",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Trophies",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Corrupt Chica Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Corrupt Chica.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Corrupt Foxy Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Corrupt Foxy.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Corrupt Bonnie Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Corrupt Bonnie.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Corrupt Balloon Boy Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Corrupt Balloon Boy.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Dead Chica Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Dead Chica.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Dead Foxy Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Dead Foxy.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Dead Bonnie Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Dead Bonnie.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Dead King Freddy Trophy",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by defeating Dead King Freddy.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "True Ending Axe",
+      "EditType": "Bits",
+      "ValueAbout": "Obtained by finishing the True Ending.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Rusty Chica Trophy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Obtained by defeating Rusty Chica.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val31"
+      }
+    },
+    {
+      "ValueName": "Robot Foxy Trophy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Obtained by defeating Robot Foxy.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val32"
+      }
+    },
+    {
+      "ValueName": "Pristine Bonnie Trophy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Obtained by defeating Pristine Bonnie.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val33"
+      }
+    },
+    {
+      "ValueName": "Morse the Mole Trophy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Obtained by defeating Morse the Mole.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val35"
+      }
+    },
+    {
+      "ValueName": "Trophies",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Abilities",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Jump Ability Unlocked",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Ability 'Jump' is unlocked.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Jump Ability Level",
+      "EditType": "Slider",
+      "ValueAbout": "The level of the Ability 'Jump'.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val14"
+      }
+    },
+    {
+      "ValueName": "Hook Ability Unlocked",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Ability 'Hook' is unlocked.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Hook Ability Level",
+      "EditType": "Slider",
+      "ValueAbout": "The level of the Ability 'Hook'.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 3.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val13"
+      }
+    },
+    {
+      "ValueName": "Dig Ability Unlocked",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Ability 'Dig' is unlocked.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "Dig Ability Level",
+      "EditType": "Slider",
+      "ValueAbout": "The level of the Ability 'Dig'.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val15"
+      }
+    },
+    {
+      "ValueName": "Super Speed Ability Unlocked",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Ability 'Super Speed' is unlocked.",
+      "ValueDefault": "0000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str02"
+      }
+    },
+    {
+      "ValueName": "Money Boots Ability Unlocked",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Ability 'Money Boots' is unlocked.",
+      "ValueDefault": "0000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str02"
+      }
+    },
+    {
+      "ValueName": "Spiky Shield Ability Unlocked",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Ability 'Spiky Shield' is unlocked.",
+      "ValueDefault": "0000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str02"
+      }
+    },
+    {
+      "ValueName": "Abilities",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Items",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Acorns (+25% HP)",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of Acorns the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val03"
+      }
+    },
+    {
+      "ValueName": "Fruits (+50% HP)",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of Fruits the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val04"
+      }
+    },
+    {
+      "ValueName": "Pizzas (FULL HP)",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of Pizzas the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val05"
+      }
+    },
+    {
+      "ValueName": "ATK+s (+50% ST)",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of ATK+s the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val06"
+      }
+    },
+    {
+      "ValueName": "DEF+s (+33% ST)",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of DEF+s the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val07"
+      }
+    },
+    {
+      "ValueName": "Shields (Invincible 3T)",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of Shields the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val08"
+      }
+    },
+    {
+      "ValueName": "Shield Piercers",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of Shield Piercers the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val36"
+      }
+    },
+    {
+      "ValueName": "Ability Recharges",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of Ability Recharges the player has.",
+      "ValueDefault": "-1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": -1.0,
+        "Maximum": 999.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val37"
+      }
+    },
+    {
+      "ValueName": "Items",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Jukebox",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "1. Title Screen",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the first track, 'Title Screen,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "2. The Garden",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the second track, 'The Garden,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "3. West Forest",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the third track, 'West Forest,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "4. South Forest",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the fourth track, 'South Forest,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "5. East Forest",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the fifth track, 'East Forest,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "6. North Forest",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the sixth track, 'North Forest,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "7. The Castle",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the seventh track, 'The Castle,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "8. Normal Battle",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the eighth track, 'Normal Battle,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "9. Rare Battle",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the ninth track, 'Rare Battle,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "10. Miniboss Battle",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the tenth track, 'Miniboss Battle,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "11. Bridge Guard",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the eleventh track, 'Bridge Guard,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "12. Gilded Battle",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the twelfth track, 'Gilded Battle,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "13. Final Boss",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the thirteenth track, 'Final Boss,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "14. Under The Forest",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the fourteenth track, 'Under The Forest,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "15. Robot Battle",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the fifteenth track, 'Robot Battle,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "16. The Machinist",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the player has the sixteenth track, 'The Machinist,' purchased.",
+      "ValueDefault": "0000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str01"
+      }
+    },
+    {
+      "ValueName": "Jukebox",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Bestiary",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Corrupt Deer",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Deer' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Deer",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Deer' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Deer +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Deer +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Deer +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Deer +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Gilded Dead Deer",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Gilded Dead Deer' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Hawk",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Hawk' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Hawk +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Hawk +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Gilded Hawk",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Gilded Hawk' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Hedgehog",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Hedgehog' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Hedgehog +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Hedgehog +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Chica",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Chica' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Chica",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Chica' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Boar",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Boar' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Boar",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Boar' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Boar +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Boar +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Boar +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Boar +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Gilded Dead Boar",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Gilded Dead Boar' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Cat",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Cat' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Cat +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Cat +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Gilded Cat",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Gilded Cat' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Woodpecker",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Woodpecker' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Woodpecker +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Woodpecker +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Foxy",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Foxy' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Foxy",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Foxy' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Owl",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Owl' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Owl",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Owl' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Owl +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Owl +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Owl +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Owl +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Gilded Dead Owl",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Gilded Dead Owl' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Beaver",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Beaver' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Beaver +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Beaver +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Gilded Beaver",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Gilded Beaver' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Wolf",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Wolf' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Wolf +",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Wolf +' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt Bonnie",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt Bonnie' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead Bonnie",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead Bonnie' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Corrupt BB",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Corrupt BB' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Dead King Freddy",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Dead King Freddy' is logged in the Bestiary.",
+      "ValueDefault": "000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str04"
+      }
+    },
+    {
+      "ValueName": "Bestiary",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Index",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Rusty Popgoes",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Rusty Popgoes' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Rusty Popgoes",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Rusty Popgoes' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Robot Popgoes",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Robot Popgoes' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Robot Popgoes",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Robot Popgoes' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Pristine Popgoes",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Pristine Popgoes' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Pristine Popgoes",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Pristine Popgoes' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Rusty Blake",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Rusty Blake' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Rusty Blake",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Rusty Blake' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Robot Blake",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Robot Blake' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Robot Blake",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Robot Blake' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Pristine Blake",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Pristine Blake' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Pristine Blake",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Pristine Blake' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Rusty Sara",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Rusty Sara' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Rusty Sara",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Rusty Sara' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Robot Sara",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Robot Sara' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Robot Sara",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Robot Sara' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Pristine Sara",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Pristine Sara' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Pristine Sara",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Pristine Sara' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Rusty Saffron",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Rusty Saffron' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Rusty Saffron",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Rusty Saffron' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Robot Saffron",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Robot Saffron' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Robot Saffron",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Robot Saffron' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Pristine Saffron",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Pristine Saffron' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Pristine Saffron",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Pristine Saffron' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Rusty Stone",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Rusty Stone' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Rusty Stone",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Rusty Stone' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Robot Stone",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Robot Stone' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Robot Stone",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Robot Stone' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Pristine Stone",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Pristine Stone' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Pristine Stone",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Pristine Stone' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Rusty Scrapbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Rusty Scrapbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Standard Scrapbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Standard Scrapbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Pristine Scrapbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Pristine Scrapbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Silver Printbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Silver Printbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Indigo Printbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Indigo Printbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Violet Printbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Violet Printbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Rusty Coinbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Rusty Coinbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Standard Coinbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Standard Coinbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Charged Pristine Coinbot",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Charged Pristine Coinbot' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Rusty Chica",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Rusty Chica' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Robot Foxy",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Robot Foxy' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Pristine Bonnie",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Pristine Bonnie' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Morse the Mole",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Morse the Mole' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Prototype Mandra",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Prototype Mandra' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Laser Pillar",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'Laser Pillar' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "The Mangle",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the 'The Mangle' is logged in the Index.",
+      "ValueDefault": "0000000000000000000000000000000000000000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str05"
+      }
+    },
+    {
+      "ValueName": "Index",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Player Colors",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Green",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Green' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Yellow",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Yellow' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Blue",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Blue' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Pink",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Pink' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Red",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Red' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Orange",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Orange' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "White",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'White' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Silver",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Silver' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Indigo",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Indigo' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Violet",
+      "EditType": "Bits",
+      "ValueAbout": "Whether or not the Player Color 'Violet' is unlocked.",
+      "ValueDefault": "1000000000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str06"
+      }
+    },
+    {
+      "ValueName": "Player Colors",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Miscellanious",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Popgoes and the Machinist",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the Player is playing \"Popgoes and the Machinist\".",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "val26"
+      }
+    },
+    {
+      "ValueName": "Position Return X",
+      "EditType": "Editbox",
+      "ValueAbout": "The X Position the Player will return to when leaving a building.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val16"
+      }
+    },
+    {
+      "ValueName": "Position Return Y",
+      "EditType": "Editbox",
+      "ValueAbout": "The Y Position the Player will return to when leaving a building.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val17"
+      }
+    },
+    {
+      "ValueName": "Current Inn",
+      "EditType": "Editbox",
+      "ValueAbout": "The Inn the player is currently in.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val18"
+      }
+    },
+    {
+      "ValueName": "Current Objective",
+      "EditType": "Slider",
+      "ValueAbout": "The Player's Current Objective.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "MultiVariable",
+        "Round": false,
+        "Variables": [
+          "0",
+          "50",
+          "100",
+          "150",
+          "200",
+          "250",
+          "300",
+          "350",
+          "375",
+          "400",
+          "425",
+          "450",
+          "475",
+          "500",
+          "550",
+          "575",
+          "600",
+          "650",
+          "675",
+          "700",
+          "725",
+          "750",
+          "775",
+          "1000",
+          "1050",
+          "1051",
+          "1100",
+          "1150",
+          "1151",
+          "1200",
+          "1250",
+          "1251",
+          "1300",
+          "1350",
+          "1351",
+          "1400",
+          "1450",
+          "1451",
+          "1452",
+          "1500"
+        ]
+      },
+      "IniData": {
+        "ValueSaveName": "val11"
+      }
+    },
+    {
+      "ValueName": "Current Music",
+      "EditType": "Slider",
+      "ValueAbout": "What music is currently playing.",
+      "ValueDefault": "1",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 8.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val22"
+      }
+    },
+    {
+      "ValueName": "BB-Bot 1's Power",
+      "EditType": "Slider",
+      "ValueAbout": "The Power level of BB-Bot 1.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 26.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val51"
+      }
+    },
+    {
+      "ValueName": "BB-Bot 2's Power",
+      "EditType": "Slider",
+      "ValueAbout": "The Power level of BB-Bot 2.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 26.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val52"
+      }
+    },
+    {
+      "ValueName": "BB-Bot 3's Power",
+      "EditType": "Slider",
+      "ValueAbout": "The Power level of BB-Bot 3.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 26.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val53"
+      }
+    },
+    {
+      "ValueName": "BB-Bot 4's Power",
+      "EditType": "Slider",
+      "ValueAbout": "The Power level of BB-Bot 4.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 26.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "val54"
+      }
+    },
+    {
+      "ValueName": "Miscellanious",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "flag",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "flags-04",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-05",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-06",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-07",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-08",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-09",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-10",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-11",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-12",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-14",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-15",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-16",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-24",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-25",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-26",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-27",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-28",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-29",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flags-31",
+      "EditType": "Bits",
+      "ValueAbout": "flag.",
+      "ValueDefault": "0",
+      "BitsData": {},
+      "IniData": {
+        "ValueSaveName": "flags"
+      }
+    },
+    {
+      "ValueName": "flag",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "vals",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "val-20",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val19"
+      }
+    },
+    {
+      "ValueName": "val-21",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val20"
+      }
+    },
+    {
+      "ValueName": "val-22",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val21"
+      }
+    },
+    {
+      "ValueName": "val-24",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val23"
+      }
+    },
+    {
+      "ValueName": "val-25",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val24"
+      }
+    },
+    {
+      "ValueName": "val-26",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val25"
+      }
+    },
+    {
+      "ValueName": "val-35",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val34"
+      }
+    },
+    {
+      "ValueName": "val-39",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val38"
+      }
+    },
+    {
+      "ValueName": "val-40",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val39"
+      }
+    },
+    {
+      "ValueName": "val-41",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val40"
+      }
+    },
+    {
+      "ValueName": "val-42",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val41"
+      }
+    },
+    {
+      "ValueName": "val-44",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val43"
+      }
+    },
+    {
+      "ValueName": "val-45",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val44"
+      }
+    },
+    {
+      "ValueName": "val-46",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val45"
+      }
+    },
+    {
+      "ValueName": "val-47",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val46"
+      }
+    },
+    {
+      "ValueName": "val-48",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val47"
+      }
+    },
+    {
+      "ValueName": "val-49",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val48"
+      }
+    },
+    {
+      "ValueName": "val-50",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val49"
+      }
+    },
+    {
+      "ValueName": "val-51",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val50"
+      }
+    },
+    {
+      "ValueName": "val-56",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val55"
+      }
+    },
+    {
+      "ValueName": "val-57",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val56"
+      }
+    },
+    {
+      "ValueName": "val-58",
+      "EditType": "Editbox",
+      "ValueAbout": "val.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "val57"
+      }
+    },
+    {
+      "ValueName": "vals",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "strs",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "str-1",
+      "EditType": "Editbox",
+      "ValueAbout": "str.",
+      "ValueDefault": "@@@@@@@@@",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "str00"
+      }
+    },
+    {
+      "ValueName": "str-3",
+      "EditType": "Editbox",
+      "ValueAbout": "str.",
+      "ValueDefault": "0000",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "str02"
+      }
+    },
+    {
+      "ValueName": "str-3-1",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "0000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str02"
+      }
+    },
+    {
+      "ValueName": "str-4",
+      "EditType": "Editbox",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-1",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-2",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-3",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-4",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-5",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-6",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-7",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-8",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-9",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-10",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-11",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-12",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-13",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-14",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-15",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "str-4-16",
+      "EditType": "Bits",
+      "ValueAbout": "str.",
+      "ValueDefault": "1111110111100000",
+      "BitsData": {
+        "FromString": true
+      },
+      "IniData": {
+        "ValueSaveName": "str03"
+      }
+    },
+    {
+      "ValueName": "strs",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Freddy's 4",
+    "GameLink": "https://store.steampowered.com/app/388090/",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAF4"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\fn4",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "fn4"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "DetectUWP",
+      "EditType": "Script",
+      "ScriptData": {
+        "RunImmediately": true
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionStart",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Switch to Remaster",
+      "EditType": "Button",
+      "ScriptData":{
+        "Script": "UpdateUWP",
+        "RegisterConditions": [
+          "UsingUWP"
+        ]
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionEnd",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Cutscene ID",
+      "EditType": "Editbox",
+      "ValueAbout": "What cutscene the player is currently on.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "scene"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first star, obtained for beating Night 5.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat5"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second star, obtained for beating Night 6.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat6"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third star, obtained for beating Nightmare.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat7"
+      }
+    },
+    {
+      "ValueName": "Star 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fourth star, obtained for beating 20/20/20/20.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat8"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Mini-Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Mini-Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first mini-star, obtained for beating Nightmare with Blind Mode enabled.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "s1"
+      }
+    },
+    {
+      "ValueName": "Mini-Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second mini-star, obtained for beating Nightmare with Mad Freddy enabled.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "s2"
+      }
+    },
+    {
+      "ValueName": "Mini-Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third mini-star, obtained for beating Nightmare with Insta-Foxy enabled.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "s3"
+      }
+    },
+    {
+      "ValueName": "Mini-Star 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fourth mini-star, obtained for beating Nightmare with Blind Mode, Mad Freddy, and Insta-Foxy enabled.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "s4"
+      }
+    },
+    {
+      "ValueName": "Mini-Star 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fifth mini-star, obtained for beating Nightmare with All Nightmare enabled.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "s5"
+      }
+    },
+    {
+      "ValueName": "Mini-Star 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "The sixth mini-star, obtained for beating Nightmare with Blind Mode and All Nightmare enabled.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "s6"
+      }
+    },
+    {
+      "ValueName": "Show Audio Tip",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not to show the 'Adjust Audio' menu on start.",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "test"
+      }
+    },
+    {
+      "ValueName": "Mini-Stars",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Freddy's: Sister Location",
+    "GameLink": "https://store.steampowered.com/app/506610/",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAFSL"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\sl",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "sl"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "DetectUWP",
+      "EditType": "Script",
+      "ScriptData": {
+        "RunImmediately": true
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionStart",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Switch to Remaster",
+      "EditType": "Button",
+      "ScriptData":{
+        "Script": "UpdateUWP",
+        "RegisterConditions": [
+          "UsingUWP"
+        ]
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionEnd",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "current"
+      }
+    },
+    {
+      "ValueName": "Play Intro",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not to play the opening intro.",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "intro"
+      }
+    },
+    {
+      "ValueName": "Last Cutscene",
+      "EditType": "Editbox",
+      "ValueAbout": "The ID of the previous cutscene the player encountered.",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "endsceneno"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first star, obtained for beating Night 5.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat1"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second star, obtained for beating the minigame.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "keycard"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third star, obtained for beating the backroom.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat3"
+      }
+    },
+    {
+      "ValueName": "Angry Ballet",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Angry Ballet' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Freddy & Co.",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Freddy & Co.' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "21",
+          "22",
+          "23",
+          "24"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Funtime Frenzy",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Funtime Frenzy' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "31",
+          "32",
+          "33",
+          "34"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Dolls, Attack!",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Dolls, Attack!' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "41",
+          "42",
+          "43",
+          "44"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Girls' Night",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Girls' Night' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "51",
+          "52",
+          "53",
+          "54"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Weirdos",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Weirdos' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "61",
+          "62",
+          "63",
+          "64"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Top Shelf",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Top Shelf' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "71",
+          "72",
+          "73",
+          "74"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Bottom Shelf",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Bottom Shelf' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "81",
+          "82",
+          "83",
+          "84"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Cupcake Challenge",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Cupcake Challenge' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "91",
+          "92",
+          "93",
+          "94"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Golden Freddy",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the 4 stars you get for beating 'Golden Freddy' on all 4 difficulties",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "101",
+          "102",
+          "103",
+          "104"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

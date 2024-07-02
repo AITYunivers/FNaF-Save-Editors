@@ -1,0 +1,295 @@
+{
+  "Meta": {
+    "GameName": "Playtime with Percy",
+    "GameLink": "https://gamejolt.com/games/PwP/669217",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "PlaytimeWithPercy"
+  },
+  "Config": {
+    "FilePath": "[APPDATA]\\PlaytimeWithPercy\\PWP.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "chrisplumpyeggberg",
+      "DefaultSaveGroup": "Save"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "Nights"
+      }
+    },
+    {
+      "ValueName": "Minigane Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What minigame night the player is currently on.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "MinigameNight"
+      }
+    },
+    {
+      "ValueName": "Sunny Puppet",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the Sunny puppet.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "SunnyGot"
+      }
+    },
+    {
+      "ValueName": "Helios Puppet",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the Helios puppet.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "HeliosGot"
+      }
+    },
+    {
+      "ValueName": "Viola Puppet",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the Viola puppet.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ViolaGot"
+      }
+    },
+    {
+      "ValueName": "Truman Puppet",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the Truman puppet.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "TrumanGot"
+      }
+    },
+    {
+      "ValueName": "Alternate Ending",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has seen the alternate ending.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "AltEnding"
+      }
+    },
+    {
+      "ValueName": "Endless Score",
+      "EditType": "Editbox",
+      "ValueAbout": "The player's high score in Endless Mode.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "Endless Score"
+      }
+    },
+    {
+      "ValueName": "Max Mode Beaten",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Max Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "MaxModeBeat"
+      }
+    },
+    {
+      "ValueName": "Max Mode Boss Beaten",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Max Mode Boss.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "MaxModeBossBeat"
+      }
+    },
+    {
+      "ValueName": "Aggressive Max Mode Beaten",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Max Mode on Aggressive.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "MaxModeBeatAGGRO"
+      }
+    },
+    {
+      "ValueName": "Aggressive Max Mode Boss Beaten",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Max Mode Boss on Aggressive.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "MaxModeBossBeatAGGRO"
+      }
+    },
+    {
+      "ValueName": "High Scores",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Night 1 Rank",
+      "EditType": "Editbox",
+      "ValueAbout": "What rank the player obtained on Night 1.",
+      "ValueDefault": "F",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "Rank1"
+      }
+    },
+    {
+      "ValueName": "Night 1 Main Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 1's Main Night.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime1Main"
+      }
+    },
+    {
+      "ValueName": "Night 1 Task Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 1's Task.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime1Task"
+      }
+    },
+    {
+      "ValueName": "Night 2 Rank",
+      "EditType": "Editbox",
+      "ValueAbout": "What rank the player obtained on Night 2.",
+      "ValueDefault": "F",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "Rank2"
+      }
+    },
+    {
+      "ValueName": "Night 2 Main Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 2's Main Night.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime2Main"
+      }
+    },
+    {
+      "ValueName": "Night 2 Task Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 2's Task.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime2Task"
+      }
+    },
+    {
+      "ValueName": "Night 3 Rank",
+      "EditType": "Editbox",
+      "ValueAbout": "What rank the player obtained on Night 3.",
+      "ValueDefault": "F",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "Rank3"
+      }
+    },
+    {
+      "ValueName": "Night 3 Main Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 3's Main Night.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime3Main"
+      }
+    },
+    {
+      "ValueName": "Night 3 Task Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 3's Task.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime3Task"
+      }
+    },
+    {
+      "ValueName": "Night 4 Rank",
+      "EditType": "Editbox",
+      "ValueAbout": "What rank the player obtained on Night 4.",
+      "ValueDefault": "F",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "Rank4"
+      }
+    },
+    {
+      "ValueName": "Night 4 Main Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 4's Main Night.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime4Main"
+      }
+    },
+    {
+      "ValueName": "Night 4 Task Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 4's Task.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime4Task"
+      }
+    },
+    {
+      "ValueName": "Night 5 Rank",
+      "EditType": "Editbox",
+      "ValueAbout": "What rank the player obtained on Night 5.",
+      "ValueDefault": "F",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "Rank5"
+      }
+    },
+    {
+      "ValueName": "Night 5 Main Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 5's Main Night.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime5Main"
+      }
+    },
+    {
+      "ValueName": "Night 5 Task Time",
+      "EditType": "Editbox",
+      "ValueAbout": "What time the player obtained on Night 5's Task.",
+      "ValueDefault": "0:00.00",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "TotalTime5Task"
+      }
+    },
+    {
+      "ValueName": "High Scores",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

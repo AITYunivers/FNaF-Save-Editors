@@ -1,0 +1,31 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Treasure Island 2",
+    "GameLink": "https://gamejolt.com/games/FNaTI-TC/317116",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AITYunivers",
+    "EditorID": "FNaTI2"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\fnati2",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "fnati2"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    }
+  ]
+}

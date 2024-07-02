@@ -1,0 +1,170 @@
+{
+  "Meta": {
+    "GameName": "JR's (2022)",
+    "GameLink": "https://gamejolt.com/games/JRs/726241",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "JR's"
+  },
+  "Config": {
+    "FilePath": "[APPDATA]\\JRs\\savedata.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "RamenovJR2"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on. 6 or higher is a star.",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Bonnie's Carrot Craze Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star obtained for getting the secret Bonnie's Carrot Craze ending.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "plat"
+      }
+    },
+    {
+      "ValueName": "The Closing Act Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star obtained for beating The Closing Act.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "maxstar"
+      }
+    },
+    {
+      "ValueName": "SR's Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star obtained for beating SR's.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "sr"
+      }
+    },
+    {
+      "ValueName": "Present 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The 1st present obtained in Free-Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "p1"
+      }
+    },
+    {
+      "ValueName": "Present 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The 2nd present obtained in Free-Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "p2"
+      }
+    },
+    {
+      "ValueName": "Present 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The 3th present obtained in Free-Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "p3"
+      }
+    },
+    {
+      "ValueName": "Present 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "The 4th present obtained in Free-Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "p4"
+      }
+    },
+    {
+      "ValueName": "Relics of the Past",
+      "EditType": "Checkbox",
+      "ValueAbout": "The mini-star obtained for completing the 'Relics of the Past' preset.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "RP"
+      }
+    },
+    {
+      "ValueName": "Unwanted Presence",
+      "EditType": "Checkbox",
+      "ValueAbout": "The mini-star obtained for completing the 'Unwanted Presence' preset.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "UP"
+      }
+    },
+    {
+      "ValueName": "A Killing Game",
+      "EditType": "Checkbox",
+      "ValueAbout": "The mini-star obtained for completing the 'A Killing Game' preset.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "KG"
+      }
+    },
+    {
+      "ValueName": "Haunting Havoc",
+      "EditType": "Checkbox",
+      "ValueAbout": "The mini-star obtained for completing the 'Haunting Havoc' preset.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "HH"
+      }
+    },
+    {
+      "ValueName": "Spectral Suspicion",
+      "EditType": "Checkbox",
+      "ValueAbout": "The mini-star obtained for completing the 'Spectral Suspicion' preset.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "SS"
+      }
+    },
+    {
+      "ValueName": "Paranormal Peril",
+      "EditType": "Checkbox",
+      "ValueAbout": "The mini-star obtained for completing the 'Paranormal Peril' preset.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "PP"
+      }
+    },
+    {
+      "ValueName": "The Closing Act Timer",
+      "EditType": "Editbox",
+      "ValueAbout": "How long it took you to beat The Closing Act.",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "tcatime"
+      }
+    },
+    {
+      "ValueName": "SR's Timer",
+      "EditType": "Editbox",
+      "ValueAbout": "How long it took you to beat SR's.",
+      "EditboxData": {},
+      "IniData": {
+        "ValueSaveName": "srstime"
+      }
+    },
+    {
+      "ValueName": "Bonnie's Carrot Craze Timer",
+      "EditType": "Unknown",
+      "ValueAbout": "How long it took you to beat SR's.",
+      "ValueDefault": "0",
+      "IniData": {}
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "Meta": {
+    "GameName": "Jolly 3: Chapter 1",
+    "GameLink": "https://gamejolt.com/games/jolly-3-official/218061",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "Jolly3C1"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\j3.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "current"
+      }
+    },
+    {
+      "ValueName": "Extras Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not Extras is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "extras"
+      }
+    },
+    {
+      "ValueName": "Have Book",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the book.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "book"
+      }
+    },
+    {
+      "ValueName": "Show Cutscene",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player should see the Octagon cutscene.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "inprogress"
+      }
+    },
+    {
+      "ValueName": "Died from Conveyor",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player should go to the conveyor belt.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "deathbyconv"
+      }
+    },
+    {
+      "ValueName": "Story 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player should go to the 4th story minigame.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "story4"
+      }
+    },
+    {
+      "ValueName": "Show Tweetie/Maxie Tip",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player should see the tip in the Tweetie and Maxie games.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "help"
+      }
+    },
+    {
+      "ValueName": "Octagon Doors",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Door 1 Open",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the first door in the octagon is open.",
+      "ValueDefault": "0",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "tc1"
+      }
+    },
+    {
+      "ValueName": "Door 2 Open",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the second door in the octagon is open. (Doesn't work on Night 1)",
+      "ValueDefault": "0",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "conv"
+      }
+    },
+    {
+      "ValueName": "Door 3 Open",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the third door in the octagon is open. (Doesn't work on Night 1)",
+      "ValueDefault": "0",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "tc2"
+      }
+    },
+    {
+      "ValueName": "Octagon Doors",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Ladies' Night",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Ladies' Night' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c1"
+      }
+    },
+    {
+      "ValueName": "Boys get drunk",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Boys get drunk' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c2"
+      }
+    },
+    {
+      "ValueName": "Eyes from the sky",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Eyes from the sky' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c3"
+      }
+    },
+    {
+      "ValueName": "Madagascar",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Madagascar' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c4"
+      }
+    },
+    {
+      "ValueName": "Cat lover",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Cat lover' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c5"
+      }
+    },
+    {
+      "ValueName": "If you like chicken nuggets",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'If you like chicken nuggets' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c6"
+      }
+    },
+    {
+      "ValueName": "Veterans",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Veterans' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c7"
+      }
+    },
+    {
+      "ValueName": "Blaze",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Blaze' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c8"
+      }
+    },
+    {
+      "ValueName": "Goes boom",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Goes boom' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c9"
+      }
+    },
+    {
+      "ValueName": "Jolly jever",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Jolly jever' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c10"
+      }
+    },
+    {
+      "ValueName": "Yellow bear",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Yellow bear' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c11"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

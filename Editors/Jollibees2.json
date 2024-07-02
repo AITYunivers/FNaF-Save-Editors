@@ -1,0 +1,179 @@
+{
+  "Meta": {
+    "GameName": "Jollibee's Phase 2",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "Jollibees2"
+  },
+  "Config": {
+    "FilePath": "[APPDATA]\\phase2.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "a"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Money",
+      "EditType": "Editbox",
+      "ValueAbout": "The amount of money the player has.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "money"
+      }
+    },
+    {
+      "ValueName": "Certificate 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the first certificate has been obtained.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "cert1"
+      }
+    },
+    {
+      "ValueName": "Certificate 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the second certificate has been obtained.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "cert2"
+      }
+    },
+    {
+      "ValueName": "Certificate 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the third certificate has been obtained.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "cert3"
+      }
+    },
+    {
+      "ValueName": "Extras/Custom Night Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not Extras and Custom Night are unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat5"
+      }
+    },
+    {
+      "ValueName": "5/20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the '5/20' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat20"
+      }
+    },
+    {
+      "ValueName": "Employee ID",
+      "EditType": "Editbox",
+      "ValueAbout": "The player's employee ID.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "employee id"
+      }
+    },
+    {
+      "ValueName": "Items",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Has Jollibee Funko",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Jollibee Funko' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item0"
+      }
+    },
+    {
+      "ValueName": "Has World's Best Boss Mug",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'World's Best Boss Mug' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item1"
+      }
+    },
+    {
+      "ValueName": "Has Tweetie Plushie",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Tweetie Plushie' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item2"
+      }
+    },
+    {
+      "ValueName": "Has George Plushie",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'George Plushie' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item3"
+      }
+    },
+    {
+      "ValueName": "Has Maxie Plushie",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Maxie Plushie' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item4"
+      }
+    },
+    {
+      "ValueName": "Has Bonnie Action Figure",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bonnie Action Figure' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item5"
+      }
+    },
+    {
+      "ValueName": "Has Freddy Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy Mask' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item6"
+      }
+    },
+    {
+      "ValueName": "Has Foxy Head",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Foxy Head' item.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "item7"
+      }
+    },
+    {
+      "ValueName": "Items",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

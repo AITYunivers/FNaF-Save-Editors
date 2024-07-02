@@ -1,0 +1,45 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Candy's",
+    "GameLink": "https://gamejolt.com/games/five-nights-at-candy-s-official/70253",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAC1"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\fivecandys",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "fivecandys"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "level"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of stars the player has.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 3.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "beatgame"
+      }
+    }
+  ]
+}

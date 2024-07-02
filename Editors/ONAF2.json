@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "GameName": "One Night at Flumpty's 2",
+    "GameLink": "https://gamejolt.com/games/onaf2/124882",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "ONAF2"
+  },
+  "Config": {
+    "FilePath": "[LOCALAPPDATA]\\ONAF2\\savedata_onaf2.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "Section1"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Unlock Hard Boiled Mode",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not Hard Boiled Mode is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "KeyHard"
+      }
+    },
+    {
+      "ValueName": "Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star obtained upon completing Hard Boiled Mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "KeyStar"
+      }
+    }
+  ]
+}

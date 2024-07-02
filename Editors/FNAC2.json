@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Candy's 2",
+    "GameLink": "https://gamejolt.com/games/five-nights-at-candy-s-2-official/110234",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAC2"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\fivecandys2",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "fivecandys2"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "level"
+      }
+    },
+    {
+      "ValueName": "1st and 2nd Star",
+      "EditType": "Slider",
+      "ValueAbout": "The first and second star.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "beat"
+      }
+    },
+    {
+      "ValueName": "3rd Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat520"
+      }
+    },
+    {
+      "ValueName": "4th Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fourth star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat220"
+      }
+    }
+  ]
+}

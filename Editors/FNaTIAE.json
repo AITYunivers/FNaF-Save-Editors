@@ -1,0 +1,69 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Treasure Island: Anniversary Edition",
+    "GameLink": "https://gamejolt.com/games/fnatianniversary/510774",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNaTIAE"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\anniversary",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Intro Cinematic",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not you've seen the intro cinematic.",
+      "ValueDefault": "1",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "firsttime"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for beating Night 5.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for beating All 20 mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat2"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "Meta": {
+    "GameName": "The Lost Ones: Five Nights at Treasure Island Remastered",
+    "GameLink": "https://gamejolt.com/games/FNaTI-TC/317116",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNaTITLOR"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\FNaTI2017R",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "FNaTI2017R"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Night 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not night 6 is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Night 6"
+      }
+    },
+    {
+      "ValueName": "Extras",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not extras is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Extras"
+      }
+    },
+    {
+      "ValueName": "All 20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the max mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "All 20"
+      }
+    },
+    {
+      "ValueName": "Caverns",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player should load into the Caverns.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Caverns"
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Candy's Remastered",
+    "GameLink": "https://gamejolt.com/games/five-nights-at-candy-s-remastered/426659",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNACR"
+  },
+  "Config": {
+    "FilePath": "[APPDATA]\\Five Nights at Candy's Remastered\\game.save",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "AceJenSpaceFren",
+      "DefaultSaveGroup": "game"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "1st, 2nd, and 3rd Star",
+      "EditType": "Slider",
+      "ValueAbout": "The first, second, and third star.",
+      "ValueDefault": "0",
+      "SliderData": {
+        "SliderType": "Number",
+        "Maximum": 3.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "beatgame"
+      }
+    },
+    {
+      "ValueName": "4th Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fourth star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "gotcam13"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Shadow Mode Code 1",
+      "EditType": "Slider",
+      "ValueAbout": "The code value for Candy's AI for Shadow Mode.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 20.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "code1"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode Code 2",
+      "EditType": "Slider",
+      "ValueAbout": "The code value for Cindy's AI for Shadow Mode.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 20.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "code2"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode Code 3",
+      "EditType": "Slider",
+      "ValueAbout": "The code value for Chester's AI for Shadow Mode.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 20.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "code3"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode Code 4",
+      "EditType": "Slider",
+      "ValueAbout": "The code value for Penguin's AI for Shadow Mode.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 20.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "code4"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode Code 5",
+      "EditType": "Slider",
+      "ValueAbout": "The code value for Old Candy's AI for Shadow Mode.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 20.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "code5"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode Code 6",
+      "EditType": "Slider",
+      "ValueAbout": "The code value for Blank's AI for Shadow Mode.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 20.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "code6"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode Code 7",
+      "EditType": "Slider",
+      "ValueAbout": "The code value for RAT's AI for Shadow Mode.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 20.0,
+        "Round": false
+      },
+      "IniData": {
+        "ValueSaveName": "code7"
+      }
+    },
+    {
+      "ValueName": "Shadow Mode",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "Meta": {
+    "GameName": "Blue Oddities: The Final Chapter",
+    "GameLink": "https://gamejolt.com/games/orange-oddities/495835",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNaTIBlueOddities"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\blue",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "progress"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Game Beaten",
+      "EditType": "Slider",
+      "ValueAbout": "How far you've gotten in the game.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "beaten"
+      }
+    },
+    {
+      "ValueName": "Intro Game",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not to play the intro game.",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "main"
+      }
+    }
+  ]
+}

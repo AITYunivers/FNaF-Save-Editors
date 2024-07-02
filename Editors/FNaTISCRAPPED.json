@@ -1,0 +1,58 @@
+{
+  "Meta": {
+    "GameName": "SCRAPPED",
+    "GameLink": "https://gamejolt.com/games/FNaTI-TC/317116",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNaTISCRAPPED"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\scrapped",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "scrapped"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Night 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not night 6 is unlocked",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "6TH NIGHT UNLOCK"
+      }
+    },
+    {
+      "ValueName": "Extras",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not extras is unlocked",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "EXTRAS UNLOCK"
+      }
+    },
+    {
+      "ValueName": "All 20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the max mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Beaten"
+      }
+    }
+  ]
+}

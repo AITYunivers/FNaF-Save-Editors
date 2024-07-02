@@ -1,0 +1,71 @@
+{
+  "Meta": {
+    "GameName": "Jolly",
+    "GameLink": "https://gamejolt.com/games/jolly/165858",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "Jolly"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\jolly.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "Slider",
+      "ValueAbout": "The amount of stars the player has.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 3.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "star"
+      }
+    },
+    {
+      "ValueName": "Night 6 Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not Night 6 is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat5"
+      }
+    },
+    {
+      "ValueName": "Custom Night Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not Custom Night and Extras is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat6"
+      }
+    },
+    {
+      "ValueName": "Seen OJ",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has seen OJ before.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "oj"
+      }
+    }
+  ]
+}

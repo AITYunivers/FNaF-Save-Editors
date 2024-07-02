@@ -1,0 +1,103 @@
+{
+  "Meta": {
+    "GameName": "Oblitus Casa 1.0",
+    "GameLink": "https://gamejolt.com/games/OblitusCasa/356260",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "OblitusCasa"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\OC",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "Everything"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "nights"
+      }
+    },
+    {
+      "ValueName": "Extra Content Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has Custom Night and Extras unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "corruptusunlock"
+      }
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has defeated MOTHER.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "gamebeat"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beat the sixth night.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "cabinunlock"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has defeated Jeff the Killer.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "pnmunlock"
+      }
+    },
+    {
+      "ValueName": "Star 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has defeated Slender Man.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "sleunlock"
+      }
+    },
+    {
+      "ValueName": "Star 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has defeated Smile Dog.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ozzyunlock"
+      }
+    },
+    {
+      "ValueName": "Star 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has defeated Eyeless Jack.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ibmmunlock"
+      }
+    },
+    {
+      "ValueName": "Star 7",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten True Nightmare.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "tnbeat"
+      }
+    }
+  ]
+}

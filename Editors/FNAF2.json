@@ -1,0 +1,218 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Freddy's 2",
+    "GameLink": "https://store.steampowered.com/app/332800/",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAF2"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\freddy2",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "freddy2"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "DetectUWP",
+      "EditType": "Script",
+      "ScriptData": {
+        "RunImmediately": true
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionStart",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Switch to Remaster",
+      "EditType": "Button",
+      "ScriptData":{
+        "Script": "UpdateUWP",
+        "RegisterConditions": [
+          "UsingUWP"
+        ]
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionEnd",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "level"
+      }
+    },
+    {
+      "ValueName": "Next Minigame",
+      "EditType": "Slider",
+      "ValueAbout": "The ID of the next minigame you will play.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 5.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "turn"
+      }
+    },
+    {
+      "ValueName": "Intro Cinematic",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not you've seen the intro cinematic.",
+      "ValueDefault": "1",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "cine"
+      }
+    },
+    {
+      "ValueName": "Crash Game",
+      "EditType": "Checkbox",
+      "ValueAbout": "Crashes the game upon launching.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "term"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first star, obtained for beating Night 5.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beatgame"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second star, obtained for beating Night 6.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat6"
+      }
+    },
+    {
+      "ValueName": "Star 3 / 20/20/20/20",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third star and first challenge star, obtained for beating the '20/20/20/20' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c1"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "New and Shiny",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second challenge star obtained for beating the 'New and Shiny' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c2"
+      }
+    },
+    {
+      "ValueName": "Double Trouble",
+      "EditType": "Checkbox",
+      "ValueAbout": "The third challenge star obtained for beating the 'Double Trouble' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c3"
+      }
+    },
+    {
+      "ValueName": "Night of Misfits",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fourth challenge star obtained for beating the 'Night of Misfits' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c4"
+      }
+    },
+    {
+      "ValueName": "Foxy Foxy",
+      "EditType": "Checkbox",
+      "ValueAbout": "The fifth challenge star obtained for beating the 'Foxy Foxy' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c5"
+      }
+    },
+    {
+      "ValueName": "Ladies Night",
+      "EditType": "Checkbox",
+      "ValueAbout": "The sixth challenge star obtained for beating the 'Ladies Night' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c6"
+      }
+    },
+    {
+      "ValueName": "Freddy's Circus",
+      "EditType": "Checkbox",
+      "ValueAbout": "The seventh challenge star obtained for beating the 'Freddy's Circus' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c7"
+      }
+    },
+    {
+      "ValueName": "Cupcake Challenge",
+      "EditType": "Checkbox",
+      "ValueAbout": "The eighth challenge star obtained for beating the 'Cupcake Challenge' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c8"
+      }
+    },
+    {
+      "ValueName": "Fazbear Fever",
+      "EditType": "Checkbox",
+      "ValueAbout": "The ninth challenge star obtained for beating the 'Fazbear Fever' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c9"
+      }
+    },
+    {
+      "ValueName": "Golden Freddy",
+      "EditType": "Checkbox",
+      "ValueAbout": "The tenth challenge star obtained for beating the 'Golden Freddy' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c10"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

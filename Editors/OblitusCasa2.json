@@ -1,0 +1,157 @@
+{
+  "Meta": {
+    "GameName": "Oblitus Casa 2.0",
+    "GameLink": "https://gamejolt.com/games/OblitusCasa/356260",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "OblitusCasa2"
+  },
+  "Config": {
+    "FilePath": "C:\\ProgramData\\casa",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "casa",
+      "DefaultSaveGroup": "General"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "Save"
+      }
+    },
+    {
+      "ValueName": "Extra Content Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has Custom Night and Extras unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Save10Hit"
+      }
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the player has beaten the mother and the sixth night.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "CabinFaceUnlock"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the player has defeated Jeff the Killer.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "PNMUnlock"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the player has defeated Slender Man.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "SlesterUnlock"
+      }
+    },
+    {
+      "ValueName": "Star 4",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the player has defeated Smile Dog.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "OswaldUnlock"
+      }
+    },
+    {
+      "ValueName": "Star 5",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the player has defeated Eyeless Jack.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "IBMUnlock"
+      }
+    },
+    {
+      "ValueName": "Star 6",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the player has beaten Limbo.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "PostMortemUnlock"
+      }
+    },
+    {
+      "ValueName": "Star 7",
+      "EditType": "Slider",
+      "ValueAbout": "Whether or not the player has beaten True Nightmare.",
+      "SliderData": {
+        "SliderType": "Number",
+        "Minimum": 0.0,
+        "Maximum": 2.0,
+        "Round": true
+      },
+      "IniData": {
+        "ValueSaveName": "TrueNightmare"
+      }
+    },
+    {
+      "ValueName": "Corruptus Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked Corruptus",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "CorruptusUnlock"
+      }
+    },
+    {
+      "ValueName": "Seen Mortimer",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has seen Mortimer",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "seenMortimer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "Meta": {
+    "GameName": "Ultimate Custom Night",
+    "GameLink": "https://store.steampowered.com/app/871720/",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAFUCN"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\CN",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "CN"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "DetectUWP",
+      "EditType": "Script",
+      "ScriptData": {
+        "RunImmediately": true
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionStart",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Switch to Remaster",
+      "EditType": "Button",
+      "ScriptData":{
+        "Script": "UpdateUWP",
+        "RegisterConditions": [
+          "UsingUWP"
+        ]
+      }
+    },
+    {
+      "ValueName": "HasUWP",
+      "EditType": "ConditionEnd",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "High Score",
+      "EditType": "Editbox",
+      "ValueAbout": "The player's highest obtained score.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "hs"
+      }
+    },
+    {
+      "ValueName": "Play Intro",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not to play the opening intro.",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "0"
+      },
+      "IniData": {
+        "ValueSaveName": "adjust"
+      }
+    },
+    {
+      "ValueName": "Force Mr. Hippo",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not to force Mr. Hippo's speech.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "mh"
+      }
+    },
+    {
+      "ValueName": "Milestones",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the milestone cutscenes you've obtained.",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "ep1",
+          "ep2",
+          "ep3",
+          "ep4",
+          "ep5",
+          "ep6",
+          "ep7",
+          "ep8",
+          "ep9",
+          "ep10",
+          "ep11",
+          "ep12",
+          "ep13",
+          "ep14"
+        ]
+      },
+      "IniData": {}
+    },
+    {
+      "ValueName": "Best 50/20 Time",
+      "EditType": "Unknown",
+      "ValueAbout": "The longest amount of time the player has lasted in 50/20.",
+      "ValueDefault": "0",
+      "IniData": {}
+    },
+    {
+      "ValueName": "Items",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Frigids",
+      "EditType": "Editbox",
+      "ValueAbout": "The player's amount of Frigids.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "i1"
+      }
+    },
+    {
+      "ValueName": "3 Starter Coins",
+      "EditType": "Editbox",
+      "ValueAbout": "The player's amount of 3 Starter Coins.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "i2"
+      }
+    },
+    {
+      "ValueName": "Batteries",
+      "EditType": "Editbox",
+      "ValueAbout": "The player's amount of Batteries.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "i3"
+      }
+    },
+    {
+      "ValueName": "DeeDee Repels",
+      "EditType": "Editbox",
+      "ValueAbout": "The player's amount of DeeDee Repels.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "i4"
+      }
+    },
+    {
+      "ValueName": "Items",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Bears Attack 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Bears Attack 1' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch1"
+      }
+    },
+    {
+      "ValueName": "Bears Attack 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Bears Attack 2' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch2"
+      }
+    },
+    {
+      "ValueName": "Bears Attack 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Bears Attack 3' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch3"
+      }
+    },
+    {
+      "ValueName": "Pay Attention 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Pay Attention 1' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch4"
+      }
+    },
+    {
+      "ValueName": "Pay Attention 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Pay Attention 2' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch5"
+      }
+    },
+    {
+      "ValueName": "Ladies Night 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Ladies Night 1' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch6"
+      }
+    },
+    {
+      "ValueName": "Ladies Night 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Ladies Night 2' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch7"
+      }
+    },
+    {
+      "ValueName": "Ladies Night 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Ladies Night 3' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch8"
+      }
+    },
+    {
+      "ValueName": "Creepy Crawlies 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Creepy Crawlies 1' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch9"
+      }
+    },
+    {
+      "ValueName": "Creepy Crawlies 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Creepy Crawlies 2' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch10"
+      }
+    },
+    {
+      "ValueName": "Nightmares Attack",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Nightmares Attack' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch11"
+      }
+    },
+    {
+      "ValueName": "Springtrapped",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Springtrapped' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch12"
+      }
+    },
+    {
+      "ValueName": "Old Friends",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Old Friends' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch13"
+      }
+    },
+    {
+      "ValueName": "Chaos 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Chaos 1' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch14"
+      }
+    },
+    {
+      "ValueName": "Chaos 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Chaos 2' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch15"
+      }
+    },
+    {
+      "ValueName": "Chaos 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "The star for completing the 'Chaos 3' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "ch16"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

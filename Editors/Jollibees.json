@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "GameName": "Jollibee's",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "Jollibees"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\jollibee.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "The current night the player is on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "The first star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat5"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "The second star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat5"
+      }
+    },
+    {
+      "ValueName": "Endings",
+      "EditType": "Slider",
+      "ValueAbout": "A slider representing the endings you've obtained.",
+      "SliderData": {
+        "SliderType": "Variable",
+        "Round": false,
+        "SaveNames": [
+          "ending1",
+          "ending2",
+          "ending3",
+          "ending4"
+        ]
+      },
+      "IniData": {}
+    }
+  ]
+}

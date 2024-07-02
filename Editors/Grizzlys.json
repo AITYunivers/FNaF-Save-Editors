@@ -1,0 +1,76 @@
+{
+  "Meta": {
+    "GameName": "Grizzly's",
+    "GameLink": "https://gamejolt.com/games/grizz/625185",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "Grizzlys"
+  },
+  "Config": {
+    "FilePath": "[APPDATA]\\grizzly.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "7ee3aba7",
+      "DefaultSaveGroup": "general"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "current"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the 1st star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "end1"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the 2nd star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "410"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the 3rd star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "415"
+      }
+    },
+    {
+      "ValueName": "Star 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the 4th star.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "420"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

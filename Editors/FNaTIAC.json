@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Treasure Island: Classic Mode",
+    "GameLink": "https://gamejolt.com/games/treasureislandofficial/222994",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNaTIAC"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\classicfnati",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not you beat night 5.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beatclassic"
+      }
+    },
+    {
+      "ValueName": "Pirate Caverns",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not you beat Pirate Caverns.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beatclassiccaverns"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

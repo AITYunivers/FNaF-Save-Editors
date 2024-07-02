@@ -1,0 +1,172 @@
+{
+  "Meta": {
+    "GameName": "Jolly 2",
+    "GameLink": "https://gamejolt.com/games/jolly-2/197334",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "Jolly2"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\j2.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "current"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Star 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten Night 5.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat5"
+      }
+    },
+    {
+      "ValueName": "Star 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten Night 6.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat6"
+      }
+    },
+    {
+      "ValueName": "Star 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has unlocked the true ending.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "te"
+      }
+    },
+    {
+      "ValueName": "Star 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the '5/20' challenge.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "beat520"
+      }
+    },
+    {
+      "ValueName": "Stars",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "The P word",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'The P word' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c1"
+      }
+    },
+    {
+      "ValueName": "The Fangsome Lion",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'The Fangsome Lion' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c2"
+      }
+    },
+    {
+      "ValueName": "Had a farm",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Had a farm' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c3"
+      }
+    },
+    {
+      "ValueName": "Boys get drunk",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Boys get drunk' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c4"
+      }
+    },
+    {
+      "ValueName": "R34",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'R34' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c5"
+      }
+    },
+    {
+      "ValueName": "That one group in school",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'That one group in school' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c6"
+      }
+    },
+    {
+      "ValueName": "Master's degree",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Master's degree' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c7"
+      }
+    },
+    {
+      "ValueName": "Tuna",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'Tuna' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c8"
+      }
+    },
+    {
+      "ValueName": "5/20.",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the '5/20.' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c9"
+      }
+    },
+    {
+      "ValueName": "The Odd Ones Out",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the 'The Odd Ones Out' mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "c10"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

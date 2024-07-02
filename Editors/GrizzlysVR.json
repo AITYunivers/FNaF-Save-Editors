@@ -1,0 +1,43 @@
+{
+  "Meta": {
+    "GameName": "Grizzly's VR",
+    "GameLink": "https://gamejolt.com/games/grizzlyvr/756382",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "GrizzlysVR"
+  },
+  "Config": {
+    "FilePath": "[LOCALLOWAPPDATA]\\Grizzlys\\GrizzlyVR\\saveFile.json",
+    "EditorType": "Json",
+    "JsonData": {}
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "JsonData": {
+        "ValueSaveName": "Nights",
+        "ValueSaveType": "Integer"
+      }
+    },
+    {
+      "ValueName": "4/20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Custom Night on 4/20.",
+      "ValueDefault": "0",
+      "CheckboxData": {
+        "OffValue": "0",
+        "OnValue": "1"
+      },
+      "JsonData": {
+        "ValueSaveName": "CN",
+        "ValueSaveType": "Integer"
+      }
+    }
+  ]
+}

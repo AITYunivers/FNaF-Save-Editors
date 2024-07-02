@@ -1,0 +1,31 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Treasure Island 2: The End of Disney V1",
+    "GameLink": "https://gamejolt.com/games/FNaTI-TC/317116",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AITYunivers",
+    "EditorID": "FNaTI2EOD"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\FNaTI2EOD",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "FNaTI2EOD"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    }
+  ]
+}

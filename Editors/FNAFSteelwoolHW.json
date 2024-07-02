@@ -1,0 +1,4702 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Freddy's: Help Wanted",
+    "GameLink": "https://store.steampowered.com/app/732690/FIVE_NIGHTS_AT_FREDDYS_HELP_WANTED/",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "FNAFSteelwoolHW"
+  },
+  "Config": {
+    "FilePath": "[LOCALAPPDATA]\\freddys\\Saved\\SaveGames\\Player00.sav",
+    "EditorType": "UESave",
+    "UESaveData": {
+      "WriteData": {
+        "SaveGameVersion": 2,
+        "PackageVersion": 517,
+        "Major": 4,
+        "Minor": 23,
+        "Patch": 1,
+        "Build": 0,
+        "BuildID": "++UE4+Release-4.23",
+        "SaveClass": "/Game/ProductionAssets/Blueprints/Data/SaveGame/FNAFSaveGame.FNAFSaveGame_C"
+      }
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Levels",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "FNaF 1 - Night 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 1's 'Night 1'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "4",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 1 - Night 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 1's 'Night 2'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "5",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          },
+          {
+            "Name": "",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 1 - Night 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 1's 'Night 3'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "6",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 1 - Night 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 1's 'Night 4'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "7",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 1 - Night 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 1's 'Night 5' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "8",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 2 - Night 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 2's 'Night 1'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "9",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 2 - Night 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 2's 'Night 2'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "10",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 2 - Night 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 2's 'Night 3'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "11",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 2 - Night 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 2's 'Night 4'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "12",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 2 - Night 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 2's 'Night 5' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "13",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 2 - Withered",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 2's 'Withered' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "40",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 3 - Night 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 3's 'Night 1'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "14",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 3 - Night 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 3's 'Night 2'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "15",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 3 - Night 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 3's 'Night 3'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "16",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 3 - Night 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 3's 'Night 4'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "17",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "FNaF 3 - Night 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'FNaF 3's 'Night 5' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "18",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Plushtrap",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Plushtrap'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "0",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Nightmare Balloon Boy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Nightmare Balloon Boy'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "0",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Plushbaby",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Plushbaby'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "2",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Funtime Foxy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Funtime Foxy'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "3",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Blacklight Plushtrap",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Plushtrap' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "30",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Blacklight Nightmare Balloon Boy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Nightmare Balloon Boy' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "31",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Blacklight Plushbaby",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Plushbaby' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "36",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Dark Room - Blacklight Funtime Foxy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Dark Room's 'Funtime Foxy' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "37",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Bonnie",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Bonnie'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "19",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Chica",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Chica'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "20",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Freddy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Freddy'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "21",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Foxy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Foxy'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "22",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Blacklight Bonnie",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Bonnie' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "32",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Blacklight Chica",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Chica' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "33",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Blacklight Freddy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Freddy' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "34",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Parts and Service - Blacklight Foxy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Parts and Service's 'Foxy' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "35",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Vent Repair - Mangle",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Vent Repair's 'Mangle'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "23",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Vent Repair - Ennard",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Vent Repair's 'Ennard'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "24",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Vent Repair - Blacklight Mangle",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Vent Repair's 'Mangle' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "38",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Vent Repair - Blacklight Ennard",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Vent Repair's 'Ennard' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "39",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Night Terrors - Funtime Freddy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Night Terrors's 'Funtime Freddy'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "25",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Night Terrors - Nightmarionne",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Night Terrors's 'Nightmarionne'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "26",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Night Terrors - Circus Baby",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Night Terrors's 'Circus Baby'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "27",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Night Terrors - Nightmare Fredbear",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Night Terrors's 'Nightmare Fredbear'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "28",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Night Terrors - Pizza Party",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Night Terrors's 'Pizza Party' in Blacklight.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "29",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Afraid Of The Dark - Pumpkin Patch",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Afraid Of The Dark's 'Pumpkin Patch'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "44",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Afraid Of The Dark - Pirate Ride",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Afraid Of The Dark's 'Pirate Ride'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "41",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Afraid Of The Dark - Corn Maze",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Afraid Of The Dark's 'Corn Maze'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "43",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Spooky Mansion - Hallway",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Spooky Mansion's 'Hallway'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "42",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Spooky Mansion - Build A Mangle",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Spooky Mansion's 'Build A Mangle'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "45",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Spooky Mansion - Trick Or Treat",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Spooky Mansion's 'Trick Or Treat'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "47",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Spooky Mansion - Dreadbear",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Spooky Mansion's 'Dreadbear'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "46",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Danger Keep Out - Night 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Danger Keep Out's 'Night 1'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "48",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Danger Keep Out - Night 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Danger Keep Out's 'Night 2'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "49",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Danger Keep Out - Night 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has completed 'Danger Keep Out's 'Night 3'.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "LevelInfo",
+            "Type": "MapProperty"
+          },
+          {
+            "Name": "50",
+            "Type": "NameProperty"
+          },
+          {
+            "Name": "Completed_7_C5B1BBD045D47AFB45A9A4AD494ABC84",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Levels",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Games Won",
+      "EditType": "Editbox",
+      "ValueAbout": "However many games the player has won.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "NumberOfGamesWon",
+            "Type": "IntProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Games Lost",
+      "EditType": "Editbox",
+      "ValueAbout": "However many games the player has lost.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "NumberOfGamesLost",
+            "Type": "IntProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Glitchtrap Defeated",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has gotten the main ending.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "GlitchtrapDefeated",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Strange Mask Aquired",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has aquired the Strange Mask.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "StrangeMaskAquired",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Coins",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Coin 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 1st coin.",
+      "CheckboxData": {
+        "OnValue": "1"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "1"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 2nd coin.",
+      "CheckboxData": {
+        "OnValue": "2"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "2"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 3rd coin.",
+      "CheckboxData": {
+        "OnValue": "3"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "3"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 4th coin.",
+      "CheckboxData": {
+        "OnValue": "4"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "4"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 5th coin.",
+      "CheckboxData": {
+        "OnValue": "5"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "5"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 6th coin.",
+      "CheckboxData": {
+        "OnValue": "6"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "6"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 7",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 7th coin.",
+      "CheckboxData": {
+        "OnValue": "7"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "7"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 8",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 8th coin.",
+      "CheckboxData": {
+        "OnValue": "8"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "8"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 9",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 9th coin.",
+      "CheckboxData": {
+        "OnValue": "9"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "9"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 10",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 10th coin.",
+      "CheckboxData": {
+        "OnValue": "10"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "10"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 11",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 11th coin.",
+      "CheckboxData": {
+        "OnValue": "11"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "11"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 12",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 12th coin.",
+      "CheckboxData": {
+        "OnValue": "12"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "12"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 13",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 13th coin.",
+      "CheckboxData": {
+        "OnValue": "13"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "13"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 14",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 14th coin.",
+      "CheckboxData": {
+        "OnValue": "14"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "14"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 15",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 15th coin.",
+      "CheckboxData": {
+        "OnValue": "15"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "15"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 16",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 16th coin.",
+      "CheckboxData": {
+        "OnValue": "16"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "16"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 17",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 17th coin.",
+      "CheckboxData": {
+        "OnValue": "17"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "17"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 18",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 18th coin.",
+      "CheckboxData": {
+        "OnValue": "18"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "18"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 19",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 19th coin.",
+      "CheckboxData": {
+        "OnValue": "19"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "19"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 20",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 20th coin.",
+      "CheckboxData": {
+        "OnValue": "20"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "20"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 21",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 21th coin.",
+      "CheckboxData": {
+        "OnValue": "21"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "21"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 22",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 22th coin.",
+      "CheckboxData": {
+        "OnValue": "22"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "22"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 23",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 23th coin.",
+      "CheckboxData": {
+        "OnValue": "23"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "23"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 24",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 24th coin.",
+      "CheckboxData": {
+        "OnValue": "24"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "24"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 25",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 25th coin.",
+      "CheckboxData": {
+        "OnValue": "25"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "25"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 26",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 26th coin.",
+      "CheckboxData": {
+        "OnValue": "26"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "26"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 27",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 27th coin.",
+      "CheckboxData": {
+        "OnValue": "27"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "27"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 28",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 28th coin.",
+      "CheckboxData": {
+        "OnValue": "28"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "28"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 29",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 29th coin.",
+      "CheckboxData": {
+        "OnValue": "29"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "29"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coin 30",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 30th coin.",
+      "CheckboxData": {
+        "OnValue": "30"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedCoins",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "30"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Coins",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Tapes",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Tape Room Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the tape room unlocked.",
+      "CheckboxData": {
+        "OnValue": "True"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "UnlockedAudioLog",
+            "Type": "BoolProperty"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Tape 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 1st tape.",
+      "CheckboxData": {
+        "OnValue": "0"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "0"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 2nd tape.",
+      "CheckboxData": {
+        "OnValue": "1"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "1"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 3rd tape.",
+      "CheckboxData": {
+        "OnValue": "2"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "2"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 4th tape.",
+      "CheckboxData": {
+        "OnValue": "3"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "3"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 5",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 5th tape.",
+      "CheckboxData": {
+        "OnValue": "4"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "4"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 6th tape.",
+      "CheckboxData": {
+        "OnValue": "5"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "5"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 7",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 7th tape.",
+      "CheckboxData": {
+        "OnValue": "6"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "6"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 8",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 8th tape.",
+      "CheckboxData": {
+        "OnValue": "7"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "7"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 9",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 9th tape.",
+      "CheckboxData": {
+        "OnValue": "8"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "8"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 10",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 10th tape.",
+      "CheckboxData": {
+        "OnValue": "9"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "9"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 11",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 11th tape.",
+      "CheckboxData": {
+        "OnValue": "10"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "10"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 12",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 12th tape.",
+      "CheckboxData": {
+        "OnValue": "11"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "11"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 13",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 13th tape.",
+      "CheckboxData": {
+        "OnValue": "12"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "12"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 14",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 14th tape.",
+      "CheckboxData": {
+        "OnValue": "13"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "13"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 15",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 15th tape.",
+      "CheckboxData": {
+        "OnValue": "14"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "14"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tape 16",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 16th tape.",
+      "CheckboxData": {
+        "OnValue": "15"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "CollectedGlitches",
+            "Type": "SetProperty"
+          },
+          {
+            "Name": "",
+            "Type": "IntProperty",
+            "Value": "15"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Tapes",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Prizes",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Special",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Cockroach",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Cockroach' Special Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "2"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "2"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Plastic Cup",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Plastic Cup' Special Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "9"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "9"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Fan",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Fan' Special Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "87"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "87"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Rolled Paper",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Rolled Paper' Special Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "4"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "4"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Freddy Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy Mask' Special Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "80"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "80"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "8-Ball",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the '8-Ball' Special Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "10"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "10"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Helpy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Helpy' Special Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "88"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "88"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Special",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Plushies",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Circus Plushbaby Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Circus Plushbaby' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "12"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "12"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Scrap Plushbaby Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Scrap Plushbaby' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "13"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "13"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Funtime Foxy Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Funtime Foxy' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "18"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "18"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Funtime Freddy Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Funtime Freddy' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "19"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "19"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Nightmarionne Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Nightmarionne' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "21"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "21"
+          }
+        ]
+      }
+    },
+    {
+      "ValueName": "Toy Freddy Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Freddy' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "24"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "24"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Bonnie Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Bonnie' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "25"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "25"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Chica Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Chica' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "26"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "26"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Marionette Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Marionette' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "28"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "28"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bonnie Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bonnie' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "30"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "30"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chica Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chica' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "31"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "31"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Foxy Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Foxy' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "32"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "32"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Freddy Fazbear Plushy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy Fazbear' Plushy unlocked.",
+      "CheckboxData": {
+        "OnValue": "33"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "33"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Plushies",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Action Figures",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Freddy Fazbear Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "34"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "34"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Ennard Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Ennard' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "35"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "35"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Mangle Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Mangle' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "36"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "36"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Freddy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Freddy' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "37"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "37"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Bonnie Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Bonnie' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "38"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "38"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Chica Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Chica' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "39"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "39"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Balloon Boy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Balloon Boy' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "40"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "40"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Marionette Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Marionette' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "41"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "41"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Plushtrap Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Plushtrap' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "42"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "42"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bonnie Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bonnie' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "43"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "43"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chica Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chica' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "44"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "44"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Foxy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Foxy' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "45"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "45"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Nightmarionne Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Nightmarionne' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "48"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "48"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Circus Baby Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Circus Baby' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "50"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "50"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Funtime Foxy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Funtime Foxy' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "51"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "51"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Funtime Freddy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Funtime Freddy' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "52"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "52"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Nightmare Fredbear Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Nightmare Fredbear' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "53"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "53"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bon-Bon Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bon-Bon' Action Figure unlocked.",
+      "CheckboxData": {
+        "OnValue": "54"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "54"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Action Figures",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Food",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Disappointment Chips",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Disappointment Chips' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "55"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "55"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "El Chip's Tortilla Chips Bold and Spicy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'El Chip's Tortilla Chips Bold and Spicy' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "56"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "56"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Meat Bites XL",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Meat Bites XL' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "57"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "57"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bonnie Bites",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bonnie Bites' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "58"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "58"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Allergy Friendly Mixed Nuts",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Allergy Friendly Mixed Nuts' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "59"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "59"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Meat Bites",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Meat Bites' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "60"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "60"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Stick of Butter",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Stick of Butter' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "61"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "61"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Pirate Plunderbar",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Pirate Plunderbar' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "62"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "62"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Foxy Cove Cooler",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Foxy Cove Cooler' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "63"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "63"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Butter for One",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Butter for One' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "64"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "64"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Freddy Fudgebar",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy Fudgebar' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "65"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "65"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Exotic Beverage",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Exotic Beverage' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "66"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "66"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Sodaroni",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Sodaroni' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "81"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "81"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chica Chug",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chica Chug' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "82"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "82"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "El Chip's Tortilla Chips",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'El Chip's Tortilla Chips' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "83"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "83"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Fazbar",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Fazbar' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "84"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "84"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Lemon Chica Bar",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Lemon Chica Bar' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "85"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "85"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Slice of Cake",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Slice of Cake' Food unlocked.",
+      "CheckboxData": {
+        "OnValue": "86"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "86"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Food",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Toy",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Toy Cupcake",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Cupcake' Toy unlocked.",
+      "CheckboxData": {
+        "OnValue": "67"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "67"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Phone",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Phone' Toy unlocked.",
+      "CheckboxData": {
+        "OnValue": "68"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "68"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Robot",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Robot' Toy unlocked.",
+      "CheckboxData": {
+        "OnValue": "69"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "69"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy Caterpillar",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Toy Caterpillar' Toy unlocked.",
+      "CheckboxData": {
+        "OnValue": "70"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "70"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Balloon",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Balloon' Toy unlocked.",
+      "CheckboxData": {
+        "OnValue": "75"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "75"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Toy",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Bobblehead",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Freddy Fazbear Bobblehead",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy Fazbear' Bobblehead unlocked.",
+      "CheckboxData": {
+        "OnValue": "77"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "77"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chica Bobblehead",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chica' Bobblehead unlocked.",
+      "CheckboxData": {
+        "OnValue": "78"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "78"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bonnie Bobblehead",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bonnie' Bobblehead unlocked.",
+      "CheckboxData": {
+        "OnValue": "79"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "79"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bobblehead",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Halloween",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Withered Freddy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Withered Freddy' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "89"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "89"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Withered Bonnie Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Withered Bonnie' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "90"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "90"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Withered Chica Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Withered Chica' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "91"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "91"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Withered Foxy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Withered Foxy' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "92"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "92"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Nightmare Freddy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Nightmare Freddy' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "93"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "93"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Nightmare Bonnie Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Nightmare Bonnie' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "94"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "94"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Nightmare Chica Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Nightmare Chica' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "95"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "95"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Nightmare Foxy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Nightmare Foxy' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "96"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "96"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Cupcake Candy Pail",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Cupcake Candy Pail' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "97"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "97"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Teethy Chew",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Teethy Chew' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "98"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "98"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chewy Treat",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chewy Treat' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "99"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "99"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Fazzies",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Fazzies' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "100"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "100"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Eat N' Cry",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Eat N' Cry' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "101"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "101"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Katz Black Licorice",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Katz Black Licorice' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "102"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "102"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bite Late Night",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bite Late Night' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "103"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "103"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Crudlet",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Crudlet' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "104"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "104"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Gobblinz",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Gobblinz' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "105"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "105"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bonnie Pumpkin",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bonnie Pumpkin' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "106"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "106"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chica Pumpkin",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chica Pumpkin' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "107"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "107"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Foxy Pumpkin",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Foxy Pumpkin' Hallowen Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "108"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "108"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Freddy Pumpkin",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy Pumpkin' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "109"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "109"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Buccaneer Bounty",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Buccaneer Bounty' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "110"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "110"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chica of the Sea",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chica of the Sea' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "111"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "111"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Devilish Delight",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Devilish Delight' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "112"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "112"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Moon Drop",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Moon Drop' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "113"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "113"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Lavender Dollop",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Lavender Dollop' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "114"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "114"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Third Eye",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Third Eye' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "115"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "115"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Squirmy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Squirmy' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "116"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "116"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Sloppy",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Sloppy' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "117"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "117"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Freddy Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Freddy Mask' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "118"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "118"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Bonnie Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Bonnie Mask' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "119"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "119"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Chica Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Chica Mask' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "120"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "120"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Balloon Boy Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Balloon Boy Mask' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "121"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "121"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Foxy Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Foxy Mask' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "122"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "122"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Mangle Mask",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Mangle Mask' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "123"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "123"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Jack-O-Bonnie Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Jack-O-Bonnie' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "124"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "124"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Jack-O-Chica Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Jack-O-Chica' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "125"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "125"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Grimm Foxy Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Grimm Foxy' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "126"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "126"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Dreadbear Figurine",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has the 'Dreadbear' Halloween Prize unlocked.",
+      "CheckboxData": {
+        "OnValue": "127"
+      },
+      "UESaveData": {
+        "SavePropertyTree": [
+          {
+            "Name": "Prizes",
+            "Type": "ArrayProperty"
+          },
+          {
+            "Name": "",
+            "Type": "NameProperty",
+            "Value": "127"
+          }
+        ],
+        "SaveMethod": "AddOrRemove"
+      }
+    },
+    {
+      "ValueName": "Halloween",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Prizes",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

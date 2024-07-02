@@ -1,0 +1,49 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Treasure Island 2: Original Revamp",
+    "GameLink": "https://gamejolt.com/games/FNaTI-TC/317116",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNaTI2OR"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\FNATI2OR",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "FNATI2OR"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Night 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not night 6 is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Night 6 unlock"
+      }
+    },
+    {
+      "ValueName": "Extras",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not extras is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Extras unlock"
+      }
+    }
+  ]
+}

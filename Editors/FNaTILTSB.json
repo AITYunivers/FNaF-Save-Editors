@@ -1,0 +1,44 @@
+{
+  "Meta": {
+    "GameName": "Five Nights at Treasure Island: Let The Show Begin",
+    "GameLink": "https://gamejolt.com/games/FNaTI-TC/317116",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNaTILTSB"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\LTSB20",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "LTSB20"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Extras",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not extras is unlocked.",
+      "ValueDefault": "1",
+      "CheckboxData": {
+        "OffValue": "1",
+        "OnValue": "2"
+      },
+      "IniData": {
+        "ValueSaveName": "Extras"
+      }
+    }
+  ]
+}

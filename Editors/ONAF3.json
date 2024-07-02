@@ -1,0 +1,31 @@
+{
+  "Meta": {
+    "GameName": "One Night at Flumpty's 3",
+    "GameLink": "https://gamejolt.com/games/onaf3/529078",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "ONAF3"
+  },
+  "Config": {
+    "FilePath": "[LOCALAPPDATA]\\ONAF3\\savedata_onaf3.ini",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "Section1"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "The current night the player is on, minus 1.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "NightsBeaten"
+      }
+    }
+  ]
+}

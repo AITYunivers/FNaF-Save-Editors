@@ -1,0 +1,102 @@
+{
+  "Meta": {
+    "GameName": "Five Nights with Mac Tonight",
+    "GameLink": "https://gamejolt.com/games/Five-Nights-With-Mac-Tonight/250308",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@yo_kai-Falls",
+    "EditorID": "FNwMT"
+  },
+  "Config": {
+    "FilePath": "[MMF]\\FNwMT",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "None",
+      "DefaultSaveGroup": "FNwMT"
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "What night the player is currently on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "night"
+      }
+    },
+    {
+      "ValueName": "Night 6",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has Night 6 unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "6th Night"
+      }
+    },
+    {
+      "ValueName": "Extras",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has Extras unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Extras 2"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Happy Meal Challenge",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Happy Meal challenge mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Happy Meal complete"
+      }
+    },
+    {
+      "ValueName": "The Crew Challenge",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the The Crew challenge mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "The Crew complete"
+      }
+    },
+    {
+      "ValueName": "Big Mac Challenge",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Big Mac challenge mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Big Mac complete"
+      }
+    },
+    {
+      "ValueName": "Mac Tonight Challenge",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Mac Tonight challenge mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Mac complete"
+      }
+    },
+    {
+      "ValueName": "Mr Moonpie Challenge",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the player has beaten the Mr Moonpie challenge mode.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Mr Moonpie complete"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupEnd"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "Meta": {
+    "GameName": "LEGO® Five Nights at Freddy's",
+    "EditorVersion": "1.0",
+    "EditorAuthor": "@AitYunivers",
+    "EditorID": "LEGOFNAF1"
+  },
+  "Config": {
+    "FilePath": "[DOCUMENTS]\\lego-fnaf-1\\lego-fnaf-1",
+    "EditorType": "Ini",
+    "IniData": {
+      "EncryptionType": "Encrypted",
+      "EncryptionKey": "lego",
+      "DefaultSaveGroup": "lego",
+      "DontOverwriteInvalidIni": true
+    }
+  },
+  "Values": [
+    {
+      "ValueName": "LookForFile",
+      "EditType": "Script",
+      "ScriptData": {
+        "RunImmediately": true
+      }
+    },
+    {
+      "ValueName": "FileNotFound",
+      "EditType": "ConditionStart",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Could not find save file, please create one.",
+      "EditType": "Comment"
+    },
+    {
+      "ValueName": "FileNotFound",
+      "EditType": "ConditionEnd",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "FileNotFound",
+      "EditType": "ConditionStart",
+      "ConditionData": {
+        "Negated": true
+      }
+    },
+    {
+      "ValueName": "Steam Username *",
+      "EditType": "InputBox",
+      "ValueAbout": "Required for the encryption key. (Case Sensitive)",
+      "InputBoxData": {},
+      "IniData": {},
+      "ScriptData":{
+        "Script": "Decrypt",
+        "RegisterConditions": [
+          "Decrypted"
+        ]
+      }
+    },
+    {
+      "ValueName": "Decrypted",
+      "EditType": "ConditionStart",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "Night",
+      "EditType": "Editbox",
+      "ValueAbout": "The current night the player is on.",
+      "ValueDefault": "1",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "Night"
+      }
+    },
+    {
+      "ValueName": "Night 6 Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not Night 6 is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Night6"
+      }
+    },
+    {
+      "ValueName": "Custom Night Unlocked",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not Custom Night is unlocked.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "CN"
+      }
+    },
+    {
+      "ValueName": "Studs",
+      "EditType": "Editbox",
+      "ValueAbout": "How many studs the player has.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "Studs"
+      }
+    },
+    {
+      "ValueName": "Blue Studs",
+      "EditType": "Editbox",
+      "ValueAbout": "How many blue studs the player has.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "Blue Studs"
+      }
+    },
+    {
+      "ValueName": "Purple Studs",
+      "EditType": "Editbox",
+      "ValueAbout": "How many purple studs the player has.",
+      "ValueDefault": "0",
+      "EditboxData": {
+        "IsNumber": true
+      },
+      "IniData": {
+        "ValueSaveName": "Purple Studs"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupStart"
+    },
+    {
+      "ValueName": "Challenge 1",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the first challenge has been completed.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Challenge1"
+      }
+    },
+    {
+      "ValueName": "Challenge 2",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the second challenge has been completed.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Challenge2"
+      }
+    },
+    {
+      "ValueName": "Challenge 3",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the third challenge has been completed.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Challenge3"
+      }
+    },
+    {
+      "ValueName": "Challenge 4",
+      "EditType": "Checkbox",
+      "ValueAbout": "Whether or not the fourth challenge has been completed.",
+      "CheckboxData": {},
+      "IniData": {
+        "ValueSaveName": "Challenge4"
+      }
+    },
+    {
+      "ValueName": "Challenges",
+      "EditType": "GroupEnd"
+    },
+    {
+      "ValueName": "Decrypted",
+      "EditType": "ConditionEnd",
+      "ConditionData": {}
+    },
+    {
+      "ValueName": "FileNotFound",
+      "EditType": "ConditionEnd",
+      "ConditionData": {}
+    }
+  ]
+}
