@@ -1,167 +1,206 @@
 {
-    "version" : "3.0.0",
-    "changelog" : "Changelog:\nRewrite.",
-    "editors" : 
+    "Version" : "3.0.0",
+    "Changelog" : "Changelog:\nRewrite.",
+    "Editors" : 
     [
         {
-            "filename" : "FNAF1",
-            "version" : "1.0"
+            "EditorID" : "FNAF1",
+            "EditorVersion" : "1.0",
+            "EditorScripts" :
+            [
+                "DetectUWP",
+                "UpdateUWP"
+            ]
         },
         {
-            "filename" : "FNAF2",
-            "version" : "1.0"
+            "EditorID" : "FNAF2",
+            "EditorVersion" : "1.0",
+            "EditorScripts" :
+            [
+                "DetectUWP",
+                "UpdateUWP"
+            ]
         },
         {
-            "filename" : "FNAF3",
-            "version" : "1.0"
+            "EditorID" : "FNAF3",
+            "EditorVersion" : "1.0",
+            "EditorScripts" :
+            [
+                "DetectUWP",
+                "UpdateUWP"
+            ]
         },
         {
-            "filename" : "FNAF4",
-            "version" : "1.0"
+            "EditorID" : "FNAF4",
+            "EditorVersion" : "1.0",
+            "EditorScripts" :
+            [
+                "DetectUWP",
+                "UpdateUWP"
+            ]
         },
         {
-            "filename" : "FNAFSL",
-            "version" : "1.0"
+            "EditorID" : "FNAFSL",
+            "EditorVersion" : "1.0",
+            "EditorScripts" :
+            [
+                "DetectUWP",
+                "UpdateUWP"
+            ]
         },
         {
-            "filename" : "FNAFSteelwoolHW",
-            "version" : "1.0"
+            "EditorID" : "FNAFSteelwoolHW",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNAFUCN",
-            "version" : "1.0"
+            "EditorID" : "FNAFUCN",
+            "EditorVersion" : "1.0",
+            "EditorScripts" :
+            [
+                "DetectUWP",
+                "UpdateUWP"
+            ]
         },
         {
-            "filename" : "FurysRage",
-            "version" : "1.0"
+            "EditorID" : "FurysRage",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "Jollibees",
-            "version" : "1.0"
+            "EditorID" : "Jollibees",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "JR's",
-            "version" : "1.0"
+            "EditorID" : "JR's",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "LEGOFNAF1",
-            "version" : "1.0"
+            "EditorID" : "LEGOFNAF1",
+            "EditorVersion" : "1.0",
+            "EditorScripts" :
+            [
+                "Decrypt",
+                "LookForFile"
+            ]
         },
         {
-            "filename" : "ONAF1",
-            "version" : "1.0"
+            "EditorID" : "ONAF1",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "ONAF2",
-            "version" : "1.0"
+            "EditorID" : "ONAF2",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "ONAF3",
-            "version" : "1.0"
+            "EditorID" : "ONAF3",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNAC1",
-            "version" : "1.0"
+            "EditorID" : "FNAC1",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNAC2",
-            "version" : "1.0"
+            "EditorID" : "FNAC2",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNAC3",
-            "version" : "1.0"
+            "EditorID" : "FNAC3",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNACR",
-            "version" : "1.0"
+            "EditorID" : "FNACR",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "Jolly",
-            "version" : "1.0"
+            "EditorID" : "Jolly",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "Jolly2",
-            "version" : "1.0"
+            "EditorID" : "Jolly2",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "Jolly3C1",
-            "version" : "1.0"
+            "EditorID" : "Jolly3C1",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "Jolly3C2",
-            "version" : "1.0"
+            "EditorID" : "Jolly3C2",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "Jollibees2",
-            "version" : "1.0"
+            "EditorID" : "Jollibees2",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "OblitusCasa",
-            "version" : "1.0"
+            "EditorID" : "OblitusCasa",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "OblitusCasa2",
-            "version" : "1.0"
+            "EditorID" : "OblitusCasa2",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNaTI",
-            "version" : "1.0"
+            "EditorID" : "FNaTI",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNaTIAC",
-            "version" : "1.0"
+            "EditorID" : "FNaTIAC",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNaTIAE",
-            "version" : "1.0"
+            "EditorID" : "FNaTIAE",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNaTIBlueOddities",
-            "version" : "1.0"
+            "EditorID" : "FNaTIBlueOddities",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNaTI2",
-            "version" : "1.0"
+            "EditorID" : "FNaTI2",
+            "EditorVersion" : "1.0",
+            "EditorHasIcon" : false
         },
         {
-            "filename" : "FNaTI2EOD",
-            "version" : "1.0"
+            "EditorID" : "FNaTI2EOD",
+            "EditorVersion" : "1.0",
+            "EditorHasIcon" : false
         },
         {
-            "filename" : "FNaTI2EOD2",
-            "version" : "1.0"
+            "EditorID" : "FNaTI2EOD2",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNaTI2OR",
-            "version" : "1.0"
+            "EditorID" : "FNaTI2OR",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNaTILTSB",
-            "version" : "1.0"
+            "EditorID" : "FNaTILTSB",
+            "EditorVersion" : "1.0",
+            "EditorHasIcon" : false
         },
         {
-            "filename" : "FNaTITLOR",
-            "version" : "1.0"
+            "EditorID" : "FNaTITLOR",
+            "EditorVersion" : "1.0",
+            "EditorHasIcon" : false
         },
         {
-            "filename" : "FNaTISCRAPPED",
-            "version" : "1.0"
+            "EditorID" : "FNaTISCRAPPED",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "FNwMT",
-            "version" : "1.0"
+            "EditorID" : "FNwMT",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "Grizzlys",
-            "version" : "1.0"
+            "EditorID" : "Grizzlys",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "GrizzlysVR",
-            "version" : "1.0"
+            "EditorID" : "GrizzlysVR",
+            "EditorVersion" : "1.0"
         },
         {
-            "filename" : "PlaytimeWithPercy",
-            "version" : "1.0"
+            "EditorID" : "PlaytimeWithPercy",
+            "EditorVersion" : "1.0"
         }
     ]
 }
