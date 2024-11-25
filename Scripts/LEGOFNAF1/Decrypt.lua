@@ -18,9 +18,28 @@
 --      void RefreshView()
 --          Refreshes the visibility of all save editor nodes
 
-EditorData.Config.IniData.EncryptionKey = "lego" .. CallerData.InputBoxData.CurrentValue;
-IniData:Load(EditorData);
-Conditions["Decrypted"] = IniData.Ini:GroupExists("lego");
+import ('Microsoft.Win32')
+
+-- Attempt to read the username automatically
+if not Conditions["Immediate"] then
+    Conditions["Immediate"] = true;
+    
+    local possibleUsername = Registry.GetValue("HKEY_CURRENT_USER\\Software\\Valve\\Steam", "LastGameNameUsed", "No Name");
+    EditorData.Config.IniData.EncryptionKey = "lego" .. possibleUsername;
+    IniData:Load(EditorData);
+    Conditions["Decrypted"] = IniData.Ini:GroupExists("lego");
+
+    if Conditions["Decrypted"] then
+        CallerData.ValueDefault = possibleUsername;
+        CallerData.InputBoxData.DoReload = true;
+    else
+        EditorData.Config.IniData.EncryptionKey = "lego";
+    end
+else
+    EditorData.Config.IniData.EncryptionKey = "lego" .. CallerData.InputBoxData.CurrentValue;
+    IniData:Load(EditorData);
+    Conditions["Decrypted"] = IniData.Ini:GroupExists("lego");
+end
 
 RefreshValues();
 RefreshView();

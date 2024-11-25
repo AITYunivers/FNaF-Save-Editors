@@ -52,8 +52,10 @@
       "IniData": {},
       "ScriptData":{
         "Script": "Decrypt",
+        "RunImmediately": true,
         "RegisterConditions": [
-          "Decrypted"
+          "Decrypted",
+          "Immediate"
         ]
       }
     },

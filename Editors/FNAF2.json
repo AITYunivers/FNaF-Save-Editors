@@ -58,6 +58,7 @@
       "ValueName": "Next Minigame",
       "EditType": "Slider",
       "ValueAbout": "The ID of the next minigame you will play.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,

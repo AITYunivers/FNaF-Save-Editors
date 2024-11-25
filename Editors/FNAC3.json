@@ -23,7 +23,6 @@
       "SliderData": {
         "SliderType": "MultiVariable",
         "Minimum": 1.0,
-        "Round": false,
         "Variables": [
           "25",
           "12",
@@ -43,7 +42,6 @@
       "ValueDefault": "0",
       "SliderData": {
         "SliderType": "MultiVariable",
-        "Round": false,
         "Variables": [
           "0",
           "1921",
@@ -193,14 +191,12 @@
       "ValueDefault": "0",
       "SliderData": {
         "SliderType": "MultiSave",
-        "Round": false,
         "SaveNames": [
           "m3u",
           "m4u",
           "m5u"
         ],
         "Variables": [
-          "0",
           "2325",
           "245",
           "873"

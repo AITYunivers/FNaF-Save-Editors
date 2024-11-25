@@ -59,6 +59,7 @@
       "ValueName": "Shadow Mode Code 1",
       "EditType": "Slider",
       "ValueAbout": "The code value for Candy's AI for Shadow Mode.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,
@@ -73,6 +74,7 @@
       "ValueName": "Shadow Mode Code 2",
       "EditType": "Slider",
       "ValueAbout": "The code value for Cindy's AI for Shadow Mode.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,
@@ -87,6 +89,7 @@
       "ValueName": "Shadow Mode Code 3",
       "EditType": "Slider",
       "ValueAbout": "The code value for Chester's AI for Shadow Mode.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,
@@ -101,6 +104,7 @@
       "ValueName": "Shadow Mode Code 4",
       "EditType": "Slider",
       "ValueAbout": "The code value for Penguin's AI for Shadow Mode.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,
@@ -115,6 +119,7 @@
       "ValueName": "Shadow Mode Code 5",
       "EditType": "Slider",
       "ValueAbout": "The code value for Old Candy's AI for Shadow Mode.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,
@@ -129,6 +134,7 @@
       "ValueName": "Shadow Mode Code 6",
       "EditType": "Slider",
       "ValueAbout": "The code value for Blank's AI for Shadow Mode.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,
@@ -143,6 +149,7 @@
       "ValueName": "Shadow Mode Code 7",
       "EditType": "Slider",
       "ValueAbout": "The code value for RAT's AI for Shadow Mode.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,

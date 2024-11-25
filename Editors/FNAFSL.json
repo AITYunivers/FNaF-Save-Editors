@@ -58,6 +58,7 @@
       "ValueName": "Play Intro",
       "EditType": "Checkbox",
       "ValueAbout": "Whether or not to play the opening intro.",
+      "ValueDefault": "0",
       "CheckboxData": {
         "OffValue": "1",
         "OnValue": "0"
@@ -112,7 +113,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Angry Ballet' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "11",
           "12",
@@ -128,7 +128,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Freddy & Co.' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "21",
           "22",
@@ -144,7 +143,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Funtime Frenzy' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "31",
           "32",
@@ -160,7 +158,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Dolls, Attack!' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "41",
           "42",
@@ -176,7 +173,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Girls' Night' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "51",
           "52",
@@ -192,7 +188,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Weirdos' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "61",
           "62",
@@ -208,7 +203,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Top Shelf' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "71",
           "72",
@@ -224,7 +218,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Bottom Shelf' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "81",
           "82",
@@ -240,7 +233,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Cupcake Challenge' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "91",
           "92",
@@ -256,7 +248,6 @@
       "ValueAbout": "A slider representing the 4 stars you get for beating 'Golden Freddy' on all 4 difficulties",
       "SliderData": {
         "SliderType": "Variable",
-        "Round": false,
         "SaveNames": [
           "101",
           "102",

@@ -18,6 +18,7 @@
       "ValueName": "Play Intro",
       "EditType": "Checkbox",
       "ValueAbout": "Controls whether or not intro plays.",
+      "ValueDefault": "0",
       "CheckboxData": {
         "OffValue": "1",
         "OnValue": "0"

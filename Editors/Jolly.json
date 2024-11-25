@@ -30,6 +30,7 @@
       "ValueName": "Stars",
       "EditType": "Slider",
       "ValueAbout": "The amount of stars the player has.",
+      "ValueDefault": "0",
       "SliderData": {
         "SliderType": "Number",
         "Minimum": 0.0,
