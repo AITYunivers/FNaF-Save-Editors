@@ -54,13 +54,6 @@
           "savename" : "AltEnding"
         },
         {
-          "name" : "Endless Score",
-          "type" : "editbox",
-          "description" : "The player's high score in Endless Mode.",
-          "savename" : "Endless Score",
-          "valuedefault" : "0"
-        },
-        {
           "name" : "Max Mode Beaten",
           "type" : "checkbox",
           "description" : "Whether or not the player has beaten the Max Mode.",
